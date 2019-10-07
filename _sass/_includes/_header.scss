@@ -187,7 +187,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($overlay-background-color,0.95);
+	background: #fafafa;
 	overflow: auto;
 
 	visibility: hidden;
@@ -231,7 +231,7 @@
 .menu__list__item__link {
 	font-size: $menu-small;
 	font-weight: $menu-weight;
-	color: $overlay-text-color;
+	color: #2A2F36;
 	padding: 10px 0;
 
 	&:hover {
