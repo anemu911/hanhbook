@@ -1,0 +1,72 @@
+site: Index Jekyll Theme
+# url: anemu911.github.io
+# baseurl: /hanhbook
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  projects:
+    output: true
+    permalink: /projects/:slug
+  product-management:
+    output: true
+    permalink: /product-management/:slug
+  simple-living:
+    output: true
+    permalink: /simple-living/:slug
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "product-management"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "simple-living"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id:
+    anonymizeIp: false
+
+paginate: 6
+paginate_path: "/blog/page:num/"

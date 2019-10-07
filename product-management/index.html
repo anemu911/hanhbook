@@ -1,0 +1,42 @@
+---
+layout: default
+title: My learning and observation on product management
+description:
+featured_image: /images/social.jpg
+---
+<section class="intro">
+	<div class="wrap">
+		<h1>Product Management</h1>
+	</div>
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for product-management in site.product-management reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ product-management.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ product-management.featured_image  }}" alt="{{ product-management.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ product-management.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ product-management.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

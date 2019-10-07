@@ -1,0 +1,44 @@
+---
+layout: default
+title: Hanh's Personal Website
+description: Product management, simple living and blog
+featured_image: /images/social.jpg
+---
+<section class="intro">
+	<div class="wrap">
+		<h1>Simple Living</h1>
+	</div>
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for simple-living in site.simple-living reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ simple-living.url }}">
+
+
+				<div class="portfolio-item__image">
+					<img src="{{ simple-living.featured_image  }}" alt="{{ simple-living.title }}">
+				</div>
+
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ simple-living.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ simple-living.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

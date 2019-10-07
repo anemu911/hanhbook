@@ -1,0 +1,96 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Portfolio
+
+// - - - - - - - - - - - - - - - - - -
+
+.portfolio {
+	/* margin-top: 80px; */
+	padding: 0 10% 0; /* Previously padding: $grid-spacing/2;*/
+}
+
+.portfolio-wrap {
+
+}
+
+.portfolio-item {
+	position: relative !important;
+	padding-bottom: $grid-spacing/2;
+	float: left;
+	width: 100%; /* Previously width: 50% */
+	top: 0px !important; /* Previously nothing */
+	margin-bottom: $grid-spacing/2; /*Previously nothing */
+	border-bottom: 1px #ccc solid /*Previously nothing */
+}
+
+.portfolio-item__link {
+	position: relative;
+	display: flex; /* Previously display: block*/
+
+	@include mq(tabletl) {
+
+		&:hover {
+
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}
+
+.portfolio-item__image {
+	width: 30%; /* Previously width: 100% */
+}
+
+.portfolio-item__content {
+	width: 70%; /* Previously none */
+	position: relative; /* Previously absolute */
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: inline-flex; /* Previously display: flex */
+	align-items: center;
+	justify-content: left; /* Previously display: center */
+	/* background: rgba($overlay-background-color, $overlay-opacity); */
+
+	opacity: 1;
+	/* visibility: hidden;
+	@include transition(all 0.2s ease-in-out); */
+}
+
+.portfolio-item__info {
+	text-align: left; /* Previously text-align: center */
+}
+
+.portfolio-item__title {
+	color: #483c3a; /* Previously $overlay-text-color */
+	font-size: $grid-item-title-small;
+	font-weight: $grid-item-title-weight;
+	letter-spacing: $grid-item-title-spacing;
+
+	@include mq(tabletp) {
+		font-size: $grid-item-title-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $grid-item-title-medium;
+	}
+}
+
+.portfolio-item__subtitle {
+	margin-top: 5px;
+	color: rgba(0, 0,0, 0.7); /* $overlay-text-color */
+	font-size: $grid-item-subtitle-small;
+	font-weight: $grid-item-subtitle-weight;
+	letter-spacing: $grid-item-subtitle-spacing;
+
+	@include mq(tabletp) {
+		font-size: $grid-item-subtitle-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $grid-item-subtitle-large;
+	}
+}
