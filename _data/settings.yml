@@ -15,8 +15,6 @@ menu_settings:
       url: '/projects/'
     - title: 'Product Management'
       url: '/product-management'
-    - title: 'Blog'
-      url: '/photographs'
     - title: 'Contact'
       url: '/contact'
 
