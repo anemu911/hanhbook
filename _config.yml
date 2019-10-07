@@ -1,6 +1,6 @@
 site: Index Jekyll Theme
-# url: anemu911.github.io
-# baseurl: /hanhbook
+baseurl: /
+url: https://anemu911.github.io
 
 collections:
   pages:
