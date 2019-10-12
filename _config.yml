@@ -63,7 +63,7 @@ plugins:
 
 jekyll_analytics:
   GoogleAnalytics:
-    id:
+    id: UA-149875242-1
     anonymizeIp: false
 
 paginate: 6
