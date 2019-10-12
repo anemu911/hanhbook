@@ -66,5 +66,7 @@ jekyll_analytics:
     id: UA-149875242-1
     anonymizeIp: false
 
+google_analytics: UA-149875242-1
+
 paginate: 6
 paginate_path: "/blog/page:num/"
