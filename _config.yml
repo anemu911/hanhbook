@@ -59,12 +59,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  - jekyll-analytics
+  - jekyll-seo-tag
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-149875242-1
-    anonymizeIp: false
+# jekyll_analytics:
+  # GoogleAnalytics:
+    # id: UA-149875242-1
+    # anonymizeIp: false
 
 google_analytics: UA-149875242-1
 
