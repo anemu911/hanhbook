@@ -1,6 +1,6 @@
 ---
 title: About me
-subtitle: About me
+subtitle:
 description: Who's running the show
 featured_image: /images/hanhbook-photo.jpg
 ---
