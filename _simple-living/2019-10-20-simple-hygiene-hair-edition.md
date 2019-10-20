@@ -1,6 +1,7 @@
 ---
-title: 'Hair Edition'
-subtitle: 'Pros and cons of natural products like oil, moisturiser and toothpaste'
+title: Hair Edition
+subtitle: Pros and cons of natural products like coconut oil, hair spray
+subtitle: Pros and cons of natural products like coconut oil, hair spray
 featured_image: '/images/simple-living/pomelo.jpg'
 ---
 

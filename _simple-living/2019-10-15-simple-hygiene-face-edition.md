@@ -1,6 +1,7 @@
 ---
-title: 'Face Edition'
-subtitle: 'Pros and cons of natural products like oil, moisturiser and toothpaste'
+title: Face Edition
+description: Pros and cons of natural products like oil, face cleanser and moisturiser
+subtitle: Pros and cons of natural products like oil, face cleanser and moisturiser
 featured_image: '/images/simple-living/oatmeal.jpg'
 ---
 
