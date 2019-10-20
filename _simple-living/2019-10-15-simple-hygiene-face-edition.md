@@ -1,5 +1,5 @@
 ---
-title: 'Simple Hygiene . Simple Beauty (Face Edition)'
+title: 'Face Edition'
 subtitle: 'Pros and cons of natural products like oil, moisturiser and toothpaste'
 featured_image: '/images/simple-living/oatmeal.jpg'
 ---
