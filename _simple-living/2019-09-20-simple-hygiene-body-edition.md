@@ -1,5 +1,5 @@
 ---
-title: 'Simple Hygiene. Simple Beauty (Body Edition)'
+title: 'Body Edition'
 subtitle: 'Pros and cons of eco-friendly products like menstrual cup, soap'
 featured_image: '/images/simple-living/handmade-soap.jpg'
 ---
