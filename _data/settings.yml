@@ -1,6 +1,7 @@
 basic_settings:
   site_title: Han(h)book
   site_tagline: Learn to live • Live to learn
+  site_description: Han(h)book is where I write, reflect and document my learnings like
   favicon_image: /images/photo-japan.jpg
 
 header_settings:

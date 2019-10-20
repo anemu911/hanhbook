@@ -18,8 +18,11 @@
 			<div class="menu__toggle js-menu-toggle">
 				<div class="menu__toggle__icon"><span></span></div>
 			</div>
+
 			<div class="menu__wrap">
+
 				<ul class="menu__list">
+					<li><p style="font-size: 14px	">{{ site.data.settings.basic_settings.site_description }}</p><br/></li>
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
 						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
@@ -29,7 +32,7 @@
 			</div>
 		</div>
 
-		<!-- This block of code shows latest articles which are redundant 
+		<!-- This block of code shows latest articles which are redundant
 		<div class="projects-menu">
 			<ul class="menu__list">
 				{% for project in site.projects reversed %}
