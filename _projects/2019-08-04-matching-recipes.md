@@ -20,7 +20,7 @@ _Phase 2_: To be updated
 Since the matching logic is pretty simple, I set up a Google Sheet and run the logic using formula. Here is the [Google Sheet]("https://docs.google.com/spreadsheets/d/1CzZqHVZELZlCeCl2wBHwcSyZhGb-BVqI80XgOjIfeAo/edit?usp=sharing")
 
 #### MVP app:
-I created a website using the logic I tested into an app. I've been using [Bubble.io]("https://bubble.io") for these apps because it can hold data and produce actual user experience, which is super awesome. Anyway, here is the demo app.
+I created a website using the logic I tested into an app. I've been using [Bubble.io]("https://bubble.io/") for these apps because it can hold data and produce actual user experience, which is super awesome. Anyway, here is the demo app.
 
 Desktop version (To put link)
 Mobile version (To put link)
