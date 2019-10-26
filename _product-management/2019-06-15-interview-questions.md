@@ -13,7 +13,7 @@ I have had several opportunities to attend interviews as a candidate and receive
 I've been working under the title "Product Manager" (mainly with e-commerce and logistics products) for a while. Each PM job exposes me to a different variation of PM. Overtime, I become more selective of what variations I like. With this knowledge, interviewing becomes more fun as I try to decipher what PM variations the company practices.
 
 ### General questions
-_usually asked during HR round and/or get-to-know section_
+_Usually asked during HR round and/or get-to-know section_
 1. What do you like about Product Management?
 2. What skills do you think a PM should have?
 3. Share a failed project and/or a successful project that you were involved
@@ -52,7 +52,7 @@ _usually asked during HR round and/or get-to-know section_
 
 ---
 
-**Last mile delivery: 4 interviewers (PM team and 1 VP of Engineering)**
+**Logistic operations: 4 interviewers (PM team and 1 VP of Engineering)**
 1. Case study: Question list [here](/contact)
 2. Case study presentation + Follow-up Questions
 

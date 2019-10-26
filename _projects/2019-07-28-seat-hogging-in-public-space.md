@@ -24,6 +24,7 @@ However, for my prototype, I couldn't get the GPS thingy to work nicely so I cha
 
 ### User Flow
 There are 2 stakeholders here:
+
 1. Library user
 - Go to `an empty table` (unoccupied table) and scan QR code. (QR code contains unique seat number ad needs to be printed)
 - QR code directs user to a website / app to register for a seat in library.

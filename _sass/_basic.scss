@@ -132,7 +132,7 @@ p, ul, ol {
 	margin-top: 15px;
 	font-size: $p-small;
 	font-weight: $p-weight;
-	line-height: $p-lineheight;
+	line-height: 1.8;/* $p-lineheight; */
 	letter-spacing: $p-spacing;
 
 	@include mq(tabletp) {
