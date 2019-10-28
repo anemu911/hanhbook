@@ -13,7 +13,7 @@ This is a breakdown article of hygiene-related products that I use for my face
 
 ### Facial Cleanser: Oatmeal
 I'm fed up of going out and buying a facial cleanser for ~$15 and realise that the cleanser is not for me. My skin somehow always feels super dry and tight after washing (i.e. meaning the cleanser contains too much soap so it cleans away the natural oil as well). Like any other beauty products, it uses plastic packaging and harmful for the environment. So double the hate.
-- Current oatmeal: Oatmeal facial cleanser. It is what it is: just [Quaker instant oatmeal](https://www.fairprice.com.sg/searchterm/oatmeal) I bought from the supermarket ()
+- Current oatmeal: Oatmeal facial cleanser. It is what it is: just [Quaker instant oatmeal](https://www.fairprice.com.sg/search?query=oatmeal) I bought from the supermarket ()
 - Cost: SGD 2-3
 - How to use: Grind oatmeal into powder-like texture and store it in a container (I used my old cream container). Before washing face, scoop out like 1/3 tablespoon and add little water (I usually do it in a small cup). Mix well to create a paste-like texture and apply gently onto face.
 - Pros: It's very gentle. At first, I was scared that my face wasn't clean but I used cotton pad and toner to check after that and it's all good. Partly because I didn't use makeup so it's easier to clean away the dirt.
@@ -45,9 +45,8 @@ There are hundreds of face mask options out there. And face mask packaging requi
 ### Natural Toothpaste
 I think it's technically under face section.
 - Current toothpaste: [Pearlie White Whitening Toothpaste](https://www.fairprice.com.sg/searchterm/pearl%20toothpaste)
-- Cost: SGD 9
+- Cost: SGD 9. It's a bit costly compared to usual option.
 - How to use: Like how I use normal toothpaste.
 - Pros: I tend to `dry vomit` when I use normal toothpaste. But this one eliminates that feeling.
 - Cons: This product doesn’t produce as much foam as a normal toothpaste does so the toothbrush doesn’t slide across my teeth easily. That makes me put more effort in brushing and wonder whether my teeth are clean (for the first few times). Another thing to get used to is the texture. It’s a translucent soft-clay like texture and get melted instantly the moment I try to brush. It's not a super eco-friendly option as the packaging is still plastic.
-- Cost: SGD 9. It's a bit costly compared to usual option.
 - Will need to look for a better option. Fun fact: I experimented coconut oil as toothpaste but in warm weather like Singapore, the liquid texture doesn't give a `clean feeling` while brushing.
