@@ -32,7 +32,7 @@ As usual, PM would need to fall in love with problems before finding solution. B
 The good thing is that quite a number of above points are internal factors. It's easier to change oneself than waiting for someone to change. I don't claim I have achieved productivity in any aspect, but I have built in myself good level of awareness. It helps alert myself as soon as I zone into the un-productivity. Below are my current practices:
 
 **1. Short attention span:**
-- **Meditation (15 minutes)** teaches me to be awareness when I'm distracted and to go back to the focus I set at the beginning. If I can focus on breathing (and nothing else) for 15 minutes, I believe I would have longer attention span when it comes to work. I'm still trying.
+- **Meditation (15 minutes)** teaches me to be aware when I'm distracted and to go back to the focus I set at the beginning. If I can focus on breathing (and nothing else) for 15 minutes, I believe I would have longer attention span when it comes to work. I'm still trying.
 
 **2. Mental burden:**
 - Having an **aggregated place for to-dos** is a must. Since my job requires me spending a lot of time in browser, I choose to have my note as the default tab background. I have been using [Papier](https://chrome.google.com/webstore/detail/papier/hhjeaokafplhjoogdemakihhdhffacia?hl=en) for quite sometime and am happy on how it constantly slaps at my face what I'm supposed to do.
