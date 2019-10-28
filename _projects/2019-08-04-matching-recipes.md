@@ -34,16 +34,16 @@ Since the matching logic is pretty simple, I set up a Google Sheet and run the l
 
 ### Phase 2: MVP
 #### Researching
-I categorise my website as meal planning tool. I found the existing meal planning websites don't really cater to Asians (based on the recipes available) and have bad user experience.
-(To put image)
+I categorise my website as meal planning tool. I found the existing meal planning websites don't really cater to Asians (based on the recipes available) and can have better user experience.
+![](/images/projects/recipe-matching-other-sites.png)
 
 #### MVP
 I discussed this idea with my designer friend and she gave me awesome feedback on how to make my website not another lame meal planning. I use [Bubble.io]("https://bubble.io/") to create the MVP because it can actually produce complex user experience and store data. Anyway, here is the demo app. At this point, I tweaked the logic I had in Google Sheet to be more user friendly (and also thanks to my friends' feedback). This really takes a lot of time because I don't have good aesthetic eyes so I have to do trial and error, changing colour, changing the flow and optimising for it.
 
 Another piece to look at is SEO. I personally don't find joy in optimising for SEO. To me, it's as boring as doing tax but it's necessary.
 
-Here's the MVP so far:
-(To put image)
+Here's the website so far:
+![](/images/projects/recipe-matching-cookclean.png)
 
 #### Crawling for more recipes
 I chose 2 more sources to add into my recipes. As explained during phase 1, the code is more or less standardised so I can spend little time (e.g. at most 3 hours / website) to get the recipes.

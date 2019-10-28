@@ -26,14 +26,21 @@ _Coding_:
 Here comes the boring/exciting part. This project really pushes my technology comprehension to the next level (but not sure if I still remember after that). I have to interact with different Google APIs and link them to the extension (written in Javascript). It was my first time using Firebase to hold data. I like it so far. Will see if it can be useful to any future project. The coding part in total takes me about 3 weeks (including testing and recording data).
 
 [Github project link]("https://github.com/anemu911/productivity-tracking")
-Google Sheets link:
 
 ### Analysing data and Ending
 After making this extension live (of course to my computer only), I suddenly found myself conscious of what I am browsing. But overtime, I conveniently forget about the recording part.
 
-1 week after going live, I downloaded data from Firebase and started analysing.
-(Add result here)
+1 week after going live, I downloaded data from Firebase and started analysing my browsing history.
+
+__Raw data from Firebase:__
+
+![Raw data from Firebase](/images/projects/extension-raw-data.png)
+
+__Analysis:__ Yup. I actually work for **4 hours** in browsers. The rest of the time spends either on meeting or thinking about something else.
+
+![Analysis](/images/projects/extension-analysis.png)
+
 
 I run it for 1 more week and get similar analysis. At this point, I faced the "So what?" question. Now I know I got distracted by certain websites, should I block them so I wont access during work? But I also realise I miss the surrounding factors. For example, maybe the reason I was reading news at that time was because boss wasn't there so I decided to chill.
 
-I decided to pause the project there and optimise my productivity in a [different approach]("/product-management/2019-10-26-how-t0-be-productive")
+I decided to pause the project there and look for [ways to optimise my productivity]("/product-management/2019-10-26-how-t0-be-productive").

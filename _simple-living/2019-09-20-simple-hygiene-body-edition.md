@@ -21,9 +21,9 @@ I have to start this article with this product. If there is one thing that makes
 
 ### Handmade soap
 Soap bar is the well-known/popular eco-friendly products. I don't super love this option because it's not super convenient yet much more expensive that normal shower gel while the pros are not super awesome
-- Current handmade soap: [Soft Cream Soap](https://www.etsy.com/sg-en/shop/SoftCreamStore?ref=simple-shop-header-name&listing_id=195324246)
+- Handmade soap (that I've been using): [Soft Cream Soap](https://www.etsy.com/sg-en/shop/SoftCreamStore?ref=simple-shop-header-name&listing_id=195324246), [Natural Handmade Soap](https://www.arbims.com/100g__natural_soap-list.aspx)
 - Cost: SGD 4-9/bar
-- I happened to know about this shop while travelling in Thailand. And the link above is actually their online store.
+- I happened to know about these shops while travelling in Thailand (Bangkok and Chiang Mai). And the links above are actually their online store.
 - Handmade soap is (much) more costly than the commercial shower bottle. 1 soap can be used for 1 month. The only reason why I'm experimenting it so far is because it's natural. Whether it's real or just my imagination, I don't feel my skin dry after rinsing it out with water.
 - Cons: The only thing I don’t like about soap is I have to either use a loofah or hold it very delicately to lather it on my body. Worse, when the soap is as thin as paper, I am stuck with either (1) making it thinner and I will suffer in my next shower, or (2) finishing it in one goal. There are options like `Soap saver pouch` that can hold your soap and help lather. I found one [here](https://www.amazon.sg/Niome-Handmade-Exfoliating-Cleaning-Scrubber/dp/B07L11JHWM/ref=sr_1_2?keywords=soap+saver+pouch&qid=1571534631&s=gateway&sr=8-2) but yet to try. I will give it a try and update the result here.
 
