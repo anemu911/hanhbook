@@ -1,7 +1,7 @@
 ---
-title: 'How to run a good meeting (Remote Edition)'
-subtitle: 'Running efficient and effective meeting with remote team'
-date: 2019-10-29
+title: 'How to run a good meeting (Onsite Edition)'
+subtitle: 'Running efficient and effective meeting with onsite team'
+date: 2019-11-18
 description:
 featured_image: '/images/product-management/meeting-room.jpg'
 ---
@@ -15,7 +15,7 @@ This article is to note down my learnings and experiences of running meetings wi
 ### What's so special about meeting with remote team
 Well, first off, the team is not physically there so it takes out the body language, sense of what's happening, pressure of participating from the conversation.
 
-Second, if a meeting consists of a remote team and a non-remote team (physically in the room), non-remote people tend to (1) discuss among themselves (because they `don't see/feel` the presence of remote team) and (2) refer to topics/terms/decisions that were made without the remote team knowing. In my opinion, running a meeting both teams is the hardest to handle.
+Second, if a meeting consists of a remote team and a non-remote team (physically in the room), non-remote people tend to (1) discuss among themselves (because they `don't see/feel` the presence of remote team) and (2) refer to topics/terms/decisions that were made without the remote team knowing. In my opinion, running a meeting with both teams is the hardest to handle.
 
 Third, as for the remote team, since people don't face the pressure of `being in a meeting`, it's easy for them to get distracted with other tasks (e.g. using phones, working on something else). It actually happens very often with physical team but I notice it's more serious in remote team. That would reduce the effectiveness of the meeting.
 

@@ -3,7 +3,7 @@ title: 'How to be productive as a Product/Project Manager'
 subtitle: 'My current practices to be productive'
 date: 2019-10-26
 description:
-featured_image: '/images/product-management/meetings.jpg'
+featured_image: '/images/product-management/product-manager.jpg'
 ---
 This article is about how I make myself more productive as a Product/Project Manager. Depending on team size, a product manager can act as a project manager. I've been in both roles for quite some time. Here, for brevity, I'll just use PM as a general term in this article.
 
