@@ -1,12 +1,12 @@
 ---
-title: 'How to run a good meeting (Remote Edition)'
-subtitle: 'Running efficient and effective meeting with remote team'
+title: 'How to run a good meeting (Onsite Edition)'
+subtitle: 'Running efficient and effective meeting with onsite team'
 date: 2019-11-18
 description:
 featured_image: '/images/product-management/meetings.jpg'
 ---
 
-This is the same same but different article on running meetings. The other one I wrote is for meetings with remote team ([here]("/product-management/2019-10-29-how-to-run-good-meeting-onsite-team"))
+This is the same same but different article on running meetings. The other one I wrote is for meetings with remote team ([here]("/product-management/2019-10-29-how-to-run-good-meeting-remote-team"))
 
 This article has a lot of general points like its brother article but I want to highlight some differences. Running an onsite meeting is easier, yet more vulnerable than running a remote meeting. The presence of stakeholders (or elephant in the room) is both the biggest pros yet cons in onsite meeting.
 
@@ -25,7 +25,7 @@ Onsite team is ... onsite. As a host, apart from running through the meeting age
 - Do people not focus in the meeting? If so, they are wasting their time and my time.
 
 ### What is a good meeting in my opinion and what I do
-**Similar to remote edition:** [here]("/product-management/2019-10-29-how-to-run-good-meeting-onsite-team")
+**Similar to remote edition:** [here]("/product-management/2019-10-29-how-to-run-good-meeting-remote-team")
 (1) Main stakeholders need to know what is the expected outcome BEFORE the meeting (e.g. to get certain decision made).
 (2) Relevant stakeholders prepare for the meeting BEFORE the meeting
 (3) Organiser prepares communication methods (e.g. slides, image, call, notes taking during meeting) to facilitate the meeting (No one would want to spend additional 15 mins because of some technical issue)
