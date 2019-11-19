@@ -1,6 +1,6 @@
 ---
-title: 'How to run a good meeting (Onsite Edition)'
-subtitle: 'Running efficient and effective meeting with onsite team'
+title: 'How to run a good meeting (Remote Edition)'
+subtitle: 'Running efficient and effective meeting with remote team'
 date: 2019-11-18
 description:
 featured_image: '/images/product-management/meeting-room.jpg'
