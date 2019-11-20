@@ -2,8 +2,9 @@
 title: 'Interview Questions'
 subtitle: 'List of questions asked in interviews for product management role'
 date: 2019-06-15
-description:
+description: 'List of questions asked in interviews for product management role'
 featured_image: '/images/product-management/interview-seat.jpg'
+group: article
 ---
 
 ### Motivation

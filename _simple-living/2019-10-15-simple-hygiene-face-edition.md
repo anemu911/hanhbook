@@ -3,6 +3,8 @@ title: Face Edition
 description: Pros and cons of natural products like oil, face cleanser and moisturiser
 subtitle: Pros and cons of natural products like oil, face cleanser and moisturiser
 featured_image: '/images/simple-living/oatmeal.jpg'
+date: 2019-10-15
+group: article
 ---
 
 `Simple Hygiene` is using not only about eco-friendly products (e.g. less packaging waste, natural content) but also about products whose ingredients are safe for health.

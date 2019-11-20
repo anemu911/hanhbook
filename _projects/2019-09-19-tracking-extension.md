@@ -2,8 +2,9 @@
 title: 'Tracking Extension'
 subtitle: 'Track which website I visited and for how long'
 date: 2019-05-04
-description:
+description: 'Track which website I visited and for how long'
 featured_image: '/images/projects/tracking-work.jpg'
+group: article
 ---
 ### Motivation
 I realised I was multitasking a lot at work. Maybe more than what I expected. I was multitasking between tabs: news, work (JIRA), meeting and chat (work and non-work related). Basically, a lot of activities are happening and things are not getting done properly. At the same time, I have a hypothesis that I can finish my work in within 4 hours with concentration. That's awesome because it means I can spend another 4 hours doing something well while getting paid.

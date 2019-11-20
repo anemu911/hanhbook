@@ -2,6 +2,8 @@
 title: 'Body Edition'
 subtitle: 'Pros and cons of eco-friendly products like menstrual cup, soap'
 featured_image: '/images/simple-living/handmade-soap.jpg'
+date: 2019-09-20
+group: article
 ---
 
 `Simple Hygiene` is using not only about eco-friendly products (e.g. less packaging waste, natural content) but also about products whose ingredients are safe for health.

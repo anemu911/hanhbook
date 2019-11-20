@@ -2,8 +2,9 @@
 title: 'Event Listing'
 subtitle: 'An attempt to aggregate public events'
 date: 2019-07-21
-description:
+description: 'An attempt to aggregate public events'
 featured_image: '/images/projects/marathon-events.jpg'
+group: article
 ---
 ### Motivation
 I was in my new job and got bored because of so much free time (?!). In August 2018, I decided to create something. For a while, whenever I went back to Vietnam, I had issues of where to go apart from meeting my friends and relatives. These is no event aggregator that is up to my liking. So I decided to create one.

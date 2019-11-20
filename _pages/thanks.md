@@ -1,7 +1,7 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: 
+description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
 

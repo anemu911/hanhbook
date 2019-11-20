@@ -2,8 +2,9 @@
 title: 'How to run a good meeting (Remote Edition)'
 subtitle: 'Running efficient and effective meeting with remote team'
 date: 2019-11-18
-description:
+description: 'Running efficient and effective meeting with remote team'
 featured_image: '/images/product-management/meeting-room.jpg'
+group: article
 ---
 This article is to note down my learnings and experiences of running meetings with remote team as a product manager (PM). It isn't a textbook or a source of truth because every person has their own style.
 

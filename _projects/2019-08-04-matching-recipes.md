@@ -2,8 +2,9 @@
 title: 'Recipe Matching'
 subtitle: 'Reduce food waste by better meal planning'
 date: 2019-08-04
-description:
+description: 'Reduce food waste by better meal planning'
 featured_image: '/images/projects/recipe-matching.jpg'
+group: article
 ---
 ### Motivation
 I'm not a big fan of cooking but I usually cook once or twice a week. I always end up with leftover ingredients and forget about them till the next time I cook. The next time I open the fridge, those ingredients have turned bad and unusable.

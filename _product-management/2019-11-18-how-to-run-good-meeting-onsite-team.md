@@ -2,8 +2,9 @@
 title: 'How to run a good meeting (Onsite Edition)'
 subtitle: 'Running efficient and effective meeting with onsite team'
 date: 2019-11-18
-description:
+description: 'Running efficient and effective meeting with onsite team'
 featured_image: '/images/product-management/meetings.jpg'
+group: article
 ---
 
 This is the same same but different article on running meetings. The other one I wrote is for meetings with remote team ([here]("/product-management/2019-10-29-how-to-run-good-meeting-remote-team"))

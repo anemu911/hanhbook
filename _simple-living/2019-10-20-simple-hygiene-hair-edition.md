@@ -3,6 +3,8 @@ title: Hair Edition
 subtitle: Pros and cons of natural products like coconut oil, hair spray
 subtitle: Pros and cons of natural products like coconut oil, hair spray
 featured_image: '/images/simple-living/pomelo.jpg'
+date: 2019-10-20
+group: article
 ---
 
 `Simple Hygiene` is using not only about eco-friendly products (e.g. less packaging waste, natural content) but also about products whose ingredients are safe for health.

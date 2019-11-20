@@ -6,7 +6,7 @@ featured_image: /images/hanhbook-photo.jpg
 ---
 <section class="intro">
 	<div class="wrap">
-		<h1>Simple Living</h1>
+		<h1>Latest articles</h1>
 	</div>
 </section>
 
@@ -14,22 +14,24 @@ featured_image: /images/hanhbook-photo.jpg
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% for simple-living in site.simple-living reversed %}
+		{% assign articles = (site.documents | where: "group", "article" | sort: "date") | reverse %}
+		{% for article in articles | limit:5 %}
 
 		<div class="portfolio-item">
 
-			<a class="portfolio-item__link" href="{{ simple-living.url }}">
+			<a class="portfolio-item__link" href="{{ article.url }}">
 
 
 				<div class="portfolio-item__image">
-					<img src="{{ simple-living.featured_image  }}" alt="{{ simple-living.title }}">
+					<img src="{{ article.featured_image  }}" alt="{{ article.title }}">
 				</div>
 
 
 				<div class="portfolio-item__content">
 					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ simple-living.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ simple-living.subtitle }}</p>
+						<p class="portfolio-item__subtitle">{{ article.date | date: "%d/%m/%Y" }}</p>
+						<h2 class="portfolio-item__title">{{ article.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ article.subtitle }}</p>
 					</div>
 				</div>
 

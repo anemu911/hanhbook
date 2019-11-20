@@ -2,8 +2,9 @@
 title: 'Seat Hogging'
 subtitle: 'Solve seat hogging issue in public space'
 date: 2019-07-28
-description:
+description: 'Solve seat hogging issue in public space'
 featured_image: '/images/projects/library-seat.jpg'
+group: article
 ---
 ### Motivation
 Seat hogging has become a social issue in Singapore. It mostly happens in open space like libraries and canteens which are on “first come first serve” basis. Seat hogging prevents other people who are there from using the facility. It leads to “inefficient use of public facility”, and to some extend cafe or fast food place. This article focuses mostly on seat-hogging issue in public library.

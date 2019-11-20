@@ -2,7 +2,9 @@
 title: 'Morning routine: Breakfast, Learning'
 description: Breakfast, Study, Meditation, Podcast
 subtitle: Breakfast, Study, Meditation, Podcast
-featured_image: '/images/simple-living/pomelo.jpg'
+featured_image: '/images/simple-living/morning-coffee.jpg'
+date: 2019-11-10
+group: article
 ---
 
 I am a morning person and I always try to squeeze as many important things I can in the morning. I look for ways to perfect my morning routine so I feel my best throughout the day. So far, my morning routine looks like below:

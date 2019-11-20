@@ -11,7 +11,7 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'Simple Living'
-      url: '/'
+      url: '/simple-living'
     - title: 'Random Projects'
       url: '/projects/'
     - title: 'Product Management'
