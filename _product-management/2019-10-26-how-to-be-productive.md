@@ -35,7 +35,7 @@ The good thing is that quite a number of above points are internal factors. It's
 
 **2. Mental burden:**
 - Having an **aggregated place for to-dos** is a must. Since my job requires me spending a lot of time in browser, I choose to have my note as the default tab background. I have been using [Papier]("https://chrome.google.com/webstore/detail/papier/hhjeaokafplhjoogdemakihhdhffacia?hl=en") for quite sometime and am happy on how it constantly slaps at my face what I'm supposed to do.
-![](/images/product-management/papier-screenshot.png)
+![papier chrome extension screenshot](/images/product-management/papier-screenshot.png)
 - Having **lesser tabs and browsers** running at one time gives me a sense of clarity. I'm an OCD to start with so I have trouble if there are more than 5 tabs going on at anytime.
 - Having **lesser communications tabs/softwares** appearing in laptop. I'm active in Whatsapp, Telegram, Messenger, Google Calendars (yes I think it's a very important comms channel) and Slack. Instead of having 5 apps/tabs running, I use messaging aggregator software like Franz. I can choose which channels should show preview notification (so that I can attend to the message actively) and which one I can check message on my own later. The downside for using this kind of softwares is privacy issue as I need to log in through their platform.
 

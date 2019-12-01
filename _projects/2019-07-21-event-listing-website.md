@@ -16,7 +16,7 @@ To me, an MVP is enough. There’s no point in perfection if no one wants to use
 #### Frontend:
 Like millions of websites out there, I chose Wordpress as my CMS. Wordpress is pretty messy and takes a bit of learning curve but is flexible enough for my requirements. I also bought a domain called lamgihomnay.com (it means "What should I do today?" in Vietnamese) for ~$12/year from GoDaddy and hosting from InmotionHosting for ~$40.
 
-![](/images/projects/event-listing.png)
+![event listing website lamgihomnay](/images/projects/event-listing.png)
 
 Frontend: The landing page is pretty simple (or boring) with table-like design to list out events. I actually got images to make it more “eye-catchy” but somehow one day, when I opened, all the images disappeared. Everything is purely configured from Wordpress. A bit painful and I got it done.
 
@@ -28,7 +28,7 @@ Updating events: This is the most important to keep content fresh. I wanted to m
 
 ##### (1) Google Sheet:
 
-![](/images/projects/event-listing-2.png)
+![event listing gsheet add event](/images/projects/event-listing-2.png)
 
 Act like a form to manually fill in upcoming events I found online. Every tab is named after the filling date. This sheet has a fixed template and is able to detect if the event has been inserted before (using Google Script).
 
@@ -36,7 +36,7 @@ Act like a form to manually fill in upcoming events I found online. Every tab is
 
 This script is to pull data from Google Sheet and transform the data into Wordpress data structure.
 
-![](/images/projects/event-listing-3.png)
+![event listing operations process](/images/projects/event-listing-3.png)
 
 ##### (3) Python script 2 (bulkUpload.py):
 

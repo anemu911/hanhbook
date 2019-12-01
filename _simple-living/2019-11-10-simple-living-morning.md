@@ -36,6 +36,6 @@ I've been studying Korean for 3 years (1 year in school and 2 years self-study).
 - At coffee shop: I love going to coffee shop for breakfast not because of the food, but because of the conducive ambience for my study. During the time I was working in central area, my go-to breakfast is either French toast / croissant with a cup of milk tea, which cost me about $3.2 - $3.5. I just changed job recently to a different area so I still look for some conducive coffee shops nearby.
 - At home: I'm also testing with another option, which is home-made overnight oats for breakfast. This option is pretty cheap. After my calculation it just costs me $1/breakfast (with oatmeal, yoghurt and fruits).
 
-![](/images/simple-living/overnight-oatmeal.jpg)
+![overnight oatmeal](/images/simple-living/overnight-oatmeal.jpg)
 
 However, I still want to get out of house in the morning for my study. Let's see how this option goes.

@@ -46,6 +46,6 @@ Of course, there will be edge cases for each step above, but that's the general 
 
 ### What I did?
 Here's the prototype:
-[![](/images/projects/library-seat-2.png)](https://drive.google.com/file/d/1YFOiVqJ-lVX4lrwmGXj5N8i1nbxUNkVF/view?usp=sharing)
+[![grab a seat library prototype](/images/projects/library-seat-2.png)](https://drive.google.com/file/d/1YFOiVqJ-lVX4lrwmGXj5N8i1nbxUNkVF/view?usp=sharing)
 
 Fun fact: I did submit this prototype to NLB in Singapore expecting no response. Surprisingly, they replied and invited me to library for a chat to understand more about the solution. Unfortunately, they decided not to proceed with this idea. But that's OK. I enjoyed working on this project.
