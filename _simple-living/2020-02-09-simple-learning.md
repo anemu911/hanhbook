@@ -18,13 +18,13 @@ My teacher: I searched online and found [italki](https://www.italki.com/) — a 
 ### My experience
 
 *Before class*
-I signed up for a TOPIK preparation class. I communicated with the teacher before class, sharing with her my background and what I wanted to achieve in this class. She give me a set of mock tests that I could try out before we met.
+I signed up for a TOPIK preparation class. I communicated with the teacher before class, sharing with her my background and what I wanted to achieve in this class. She gave me a set of mock tests that I could try out before we met.
 
 *During class*
 We went through each question and she would correct my answers (if wrong) or my pronunciation or answer any question I had. If there was any special grammar or vocabulary to take note, she would teach me.
 
 *After class*
-For subsequent classes, she shared with me some homework for the next lesson. I finished them.
+For subsequent classes, she shared with me some homework for the next lesson. I finished them. And the routine continued.
 
 ### What’s good
 *Time*: I like the fact that the schedule is flexible so I engage her twice every month, which fits into my hectic lifestyle. I usually schedule for 9am class weekday so I have my weekend free. This will never happen if I study at center. With this arrangement, USD25/hour is actually cheap compared to my previous option.
