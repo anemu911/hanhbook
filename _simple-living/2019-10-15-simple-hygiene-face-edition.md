@@ -21,13 +21,20 @@ I'm fed up of going out and buying a facial cleanser for ~$15 and realise that t
 - Pros: It's very gentle. At first, I was scared that my face wasn't clean but I used cotton pad and toner to check after that and it's all good. Partly because I didn't use makeup so it's easier to clean away the dirt.
 - Cons: It will take longer time to prepare and messier to wash out but I enjoy the process of doing it. I usually cleanse my face while showering so the mess doesn't bother me much.
 
-#### Oil, oil and oil: Jojoba oil
+#### Oil, oil and oil: Jojoba oil and Rose Hip oil
 Oil in generally a perfect/cheaper/eco-friendly alternative to a lot of beauty products. It's also easy to carry around because it's always in the small bottle. I'm currently using different types of oil for multi-purposes:
+
+Rose hip oil: As face serum
+Not sure if serum is the right analogy here but I use rose hip oil for spot treatment.
+- Current rose hip oil: [The Ordinary Rose hip oil](https://www.lookfantastic.com.sg/the-ordinary-100-organic-cold-pressed-rose-hip-seed-oil-30ml/11363399.html)
+- Cost: SGD 17.5 from LookFanstastic
+- How to use: I drop 3 drops onto my hand, and use a finger to dip and tap it on certain spots like my cheek, forehead, nose tip and chin. It will has the distinct orange colour and sink into the skin very quickly.
+- Pros: After using some time, it helps fade the colour of the dark spots away. It is really magical
 
 Jojoba oil: As face moisturiser.
 - Current jojoba oil: [Dessert Essence Jojoba oil](https://sg.iherb.com/pr/Desert-Essence-Organic-Jojoba-Oil-for-Hair-Skin-Scalp-4-fl-oz-118-ml/3579)
 - Cost: SGD 15 - 20 depending on where I buy it
-- How to use: I just drop 3 drops onto my hair, warm them up using hair and apply (tap tap) to my face. It won't be oily as the oil has the same content as the face's oil. My skin type is a bit dry, so it will moisturise the face in the `natural` way.
+- How to use: I just drop 3 drops onto my hand, warm them up using hand and apply (tap tap) to my face. It won't be oily as the oil has the same content as the face's oil. My skin type is a bit dry, so it will moisturise the face in the `natural` way.
 - Pros: For a 60ml jojoba oil bottle, it's about 20% cheaper than the 50ml Innisfree moisturiser cream ([my pervious cream](https://hush.sg/products/innisfree/green-tea-seed-cream)). Jojoba oil can be used as hair oil as well.
 - Cons: No cons in terms of experience. I'm thinking of how to reduce the packaging waste because both options will have plastic bottle at the end of day.
 - I'm thinking of using jojoba oil as oil cleanser (to wash my face after using mask). This oil is seriously an everything oil.
