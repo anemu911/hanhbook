@@ -1,8 +1,8 @@
 ---
-title: 'Freshsales GSheet Connector'
-subtitle: 'Connect data from Freshsales to GSheet for reporting'
+title: 'Freshsales GSheet Connector BTS'
+subtitle: ''
 date: 2020-05-10
-description: 'Connect data from Freshsales to GSheet for reporting'
+description: ''
 featured_image: '/images/projects/freshsales-gsheet-connector.png'
 group: article
 ---
