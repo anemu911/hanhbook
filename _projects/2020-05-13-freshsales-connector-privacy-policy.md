@@ -1,9 +1,9 @@
 ---
-title: 'Freshsales GSheet Connector Privacy Policy'
+title: 'Freshsales Connector Privacy Policy'
 subtitle: ''
 date: 2020-05-13
 description: ''
-featured_image: '/images/projects/fs-gsheet-logo.jpg'
+featured_image: '/images/projects/fs-logo.jpg'
 group: article
 ---
 
