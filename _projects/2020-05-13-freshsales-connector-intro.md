@@ -10,3 +10,8 @@ group: article
 ![add on](/images/projects/fs-connector-add-on.jpg)
 ### Introduction
 This add-on allows users to filter deals from Freshsales based on criteria like create date, deal pipeline and deal stage. The data will then be embedded onto Google Sheets according to selected columns
+
+If you have any question, please email us at anemu911@gmail.com
+
+### Other links
+[Privacy policy](/projects/freshsales-connector-privacy-policy)
