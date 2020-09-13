@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2020-09-11T17:39:03+08:00</lastmod>
+<lastmod>2020-09-13T16:28:45+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact</loc>
-<lastmod>2020-09-11T17:39:03+08:00</lastmod>
+<lastmod>2020-09-13T16:28:45+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2020-09-11T17:39:03+08:00</lastmod>
+<lastmod>2020-09-13T16:28:45+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/product-management/interview-questions</loc>
@@ -123,6 +123,14 @@
 <url>
 <loc>http://localhost:4000/simple-living/simple-desk-arrangement</loc>
 <lastmod>2020-03-28T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/simple-living/journaling</loc>
+<lastmod>2020-09-13T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/simple-living/self-study-korean</loc>
+<lastmod>2020-09-13T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/projects/</loc>
