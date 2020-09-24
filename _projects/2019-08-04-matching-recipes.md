@@ -31,7 +31,7 @@ I started crawling recipes from 1 website, which gives me about 60+ recipes. I u
 At this point, I divide my crawler into 2 parts: the crawling part (just to download data) and cleaning part (to be done locally). This would make the process faster and I don't have to re-crawl the data if I make mistake. The crawling part can be stardardised (more or less), but the cleaning part is quite customised for each website.
 
 #### Logic testing
-Since the matching logic is pretty simple, I set up a Google Sheet and run the logic using formula. Here is the [Google Sheet]("https://docs.google.com/spreadsheets/d/1CzZqHVZELZlCeCl2wBHwcSyZhGb-BVqI80XgOjIfeAo/edit?usp=sharing"). It looks good so far. I tried using the Google Sheet for planning my meals for 2 weeks. There are some issues due to lack of recipes and lack of ingredient standardisation, but they will get addressed in the next phase.
+Since the matching logic is pretty simple, I set up a Google Sheet and run the logic using formula. Here is the [Google Sheet](https://docs.google.com/spreadsheets/d/1CzZqHVZELZlCeCl2wBHwcSyZhGb-BVqI80XgOjIfeAo/edit?usp=sharing). It looks good so far. I tried using the Google Sheet for planning my meals for 2 weeks. There are some issues due to lack of recipes and lack of ingredient standardisation, but they will get addressed in the next phase.
 
 ### Phase 2: MVP
 #### Researching
@@ -39,7 +39,7 @@ I categorise my website as meal planning tool. I found the existing meal plannin
 ![recipe sites](/images/projects/recipe-matching-other-sites.png)
 
 #### MVP
-I discussed this idea with my designer friend and she gave me awesome feedback on how to make my website not another lame meal planning. I use [Bubble.io]("https://bubble.io/") to create the MVP because it can actually produce complex user experience and store data. Anyway, here is the demo app. At this point, I tweaked the logic I had in Google Sheet to be more user friendly (and also thanks to my friends' feedback). This really takes a lot of time because I don't have good aesthetic eyes so I have to do trial and error, changing colour, changing the flow and optimising for it.
+I discussed this idea with my designer friend and she gave me awesome feedback on how to make my website not another lame meal planning. I use [Bubble.io](https://bubble.io/) to create the MVP because it can actually produce complex user experience and store data. Anyway, here is the demo app. At this point, I tweaked the logic I had in Google Sheet to be more user friendly (and also thanks to my friends' feedback). This really takes a lot of time because I don't have good aesthetic eyes so I have to do trial and error, changing colour, changing the flow and optimising for it.
 
 Another piece to look at is SEO. I personally don't find joy in optimising for SEO. To me, it's as boring as doing tax but it's necessary.
 
@@ -55,4 +55,4 @@ To do this part, I have to tweak my data structure quite a few times. When I fir
 Of course, this process would require manual categorisation. I did write a script to do a first-version cleaning but it wasn't still not good enough. I just saw this as a muscle exercise. Luckily, it didn't take much of my time.
 
 ### Phase 3: Launching
-There's no point working in the dark for so long though everyone loves dark mode (lame joke). With self-encouragement, I bought a domain name. My criteria for domain name is not high, just has some meaning and cheap cheap. So I settle with a name "Cook Clean" (cos it's cooking and the aim is to reduce waste). After searching in [Name Cheap]("https://namecheap.com"), [cookclean.life]("cookclean.me") seems like a good name yet not too expensive (~SGD 3). I linked it with Bubble (Bubble has made it so easy to do domain name change). And it's live, just like that.
+There's no point working in the dark for so long though everyone loves dark mode (lame joke). With self-encouragement, I bought a domain name. My criteria for domain name is not high, just has some meaning and cheap cheap. So I settle with a name "Cook Clean" (cos it's cooking and the aim is to reduce waste). After searching in [Name Cheap](https://namecheap.com), [cookclean.life](cookclean.life) seems like a good name yet not too expensive (~SGD 3). I linked it with Bubble (Bubble has made it so easy to do domain name change). And it's live, just like that.
