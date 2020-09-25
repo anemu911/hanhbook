@@ -8,31 +8,29 @@
 
 	<!-- Page Info
 	<link rel="shortcut icon" href="/images/photo-japan.jpg">
-  <title>Seat Hogging – Han(h)book</title>
-	<meta name="description" content="Solve seat hogging issue in public space">
+  <title>List of books and  notes – Han(h)book</title>
+	<meta name="description" content="Books are great teacher. Hence, I have to take notes.">
 	-->
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Seat Hogging</title>
+<title>List of books and notes</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="Seat Hogging" />
+<meta property="og:title" content="List of books and notes" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Solve seat hogging issue in public space" />
-<meta property="og:description" content="Solve seat hogging issue in public space" />
-<link rel="canonical" href="http://localhost:4000/projects/seat-hogging-in-public-space" />
-<meta property="og:url" content="http://localhost:4000/projects/seat-hogging-in-public-space" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-07-28T00:00:00+08:00" />
+<meta name="description" content="Books are great teacher. Hence, I have to take notes." />
+<meta property="og:description" content="Books are great teacher. Hence, I have to take notes." />
+<link rel="canonical" href="http://localhost:4000/books/" />
+<meta property="og:url" content="http://localhost:4000/books/" />
 <script type="application/ld+json">
-{"description":"Solve seat hogging issue in public space","@type":"BlogPosting","headline":"Seat Hogging","dateModified":"2019-07-28T00:00:00+08:00","datePublished":"2019-07-28T00:00:00+08:00","url":"http://localhost:4000/projects/seat-hogging-in-public-space","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/seat-hogging-in-public-space"},"@context":"https://schema.org"}</script>
+{"description":"Books are great teacher. Hence, I have to take notes.","@type":"WebPage","headline":"List of books and notes","url":"http://localhost:4000/books/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<meta name="robots" content="index,follow">
 
 	<!-- Facebook OpenGraph
-	<meta property="og:title" content="Seat Hogging – Han(h)book" />
-	<meta property="og:description" content="Solve seat hogging issue in public space" />
-	<meta property="og:image" content="http://localhost:4000/images/projects/library-seat.jpg" />
+	<meta property="og:title" content="List of books and  notes – Han(h)book" />
+	<meta property="og:description" content="Books are great teacher. Hence, I have to take notes." />
+	<meta property="og:image" content="http://localhost:4000/images/social.jpg" />
   -->
 	
 	<!-- Font Embed Code -->
@@ -74,7 +72,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/projects/seat-hogging-in-public-space">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/books/">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQNPDXJ"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -268,85 +266,24 @@
 
 	<div class="page">
 
-		<div class="page__content" data-page-title="Seat Hogging – Han(h)book">
+		<div class="page__content" data-page-title="List of books and  notes – Han(h)book">
 
 			<section class="intro">
-
 	<div class="wrap">
+		<h1>Books</h1>
+	</div>
+</section>
 
-		<h1>Seat Hogging</h1>
-		<p>Solve seat hogging issue in public space</p>
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		
 
 	</div>
 
 </section>
 
-<section class="single">
-
-	<div class="wrap">
-
-		<h3 id="motivation">Motivation</h3>
-<p>Seat hogging has become a social issue in Singapore. It mostly happens in open space like libraries and canteens which are on “first come first serve” basis. Seat hogging prevents other people who are there from using the facility. It leads to “inefficient use of public facility”, and to some extend cafe or fast food place. This article focuses mostly on seat-hogging issue in public library.</p>
-
-<h3 id="understanding-the-problem-and-approach">Understanding the problem and Approach</h3>
-<p>There are few types of people who hog seats in library:</p>
-<ul>
-  <li>Students study in group. A person comes first to reserve few seats for friends who will come later.</li>
-  <li>A person intends to study in library for few hours (e.g. 4–5 hours). Halfway through, she goes out for lunch with friends for 1 hour and doesn’t want to lose her seats.</li>
-  <li>A person intends to start studying at peak hour. To prevent from not finding the seat later, she comes early, reserves a seat and later goes back.</li>
-</ul>
-
-<p>The main approach to minimise seat hogging is to track 2 metrics: (1) Is library user out of library (i.e. location)?, (2) If the user is out, how long have they been out? (i.e. time).</p>
-
-<p>First, we need to obtain user-seat relationship. The tedious part is that user will need to register for a seat in order to get all the data available. However, the registration process can be straight forward, pretty similar to way as they register for free wifi in public space.</p>
-
-<p>Second, to track user’s location compared to library location, I prefer to have GPS auto tracking user’s locations and updating the system. I considered that option against others like (1) Seat detection sensor like seat count in bus (i.e. high initial investment and inability o track timeout) and (2) Library officer taking notes of who’s in / out (even using digital format) and (3) Camera detection.</p>
-
-<p>However, for my prototype, I couldn’t get the GPS thingy to work nicely so I changed it to “manually tapping in and out”.</p>
-
-<h3 id="user-flow">User Flow</h3>
-<p>There are 2 stakeholders here:</p>
-
-<ol>
-  <li>Library user
-    <ul>
-      <li>Go to <code class="highlighter-rouge">an empty table</code> (unoccupied table) and scan QR code. (QR code contains unique seat number ad needs to be printed)</li>
-      <li>QR code directs user to a website / app to register for a seat in library.</li>
-      <li>If the seat is not registered with any user, user can register with phone number and OTP (similar to registering for wifi). If not, user will need to find another seat.</li>
-      <li>Once registration is successful, user is assigned to the seat based on the scanned QR code.</li>
-      <li>During seat occupying period, if user walks in and out of the library, the phone will detect <code class="highlighter-rouge">out status</code> (not necessarily location tracking) and keep track of how long user is away from the base location (i.e. library)</li>
-      <li>If user is out for more than XX minutes, the seat is automatically unregistered so that other people can use.</li>
-    </ul>
-  </li>
-</ol>
-
-<p>Of course, there will be edge cases for each step above, but that’s the general flow. The <code class="highlighter-rouge">killer</code> function of this system is to ability to track in/out status of a user. This can be done by:</p>
-<ul>
-  <li>Bluetooth and beacon: This setup requires initial logistic but offers higher location accuracy</li>
-  <li>GPS tracking in phone: This setup requires lesser initial logistic but consumes phone battery very quickly.</li>
-  <li>Log in / Log out manually by user: Process is tedious and manual for user, but requires almost no setup.</li>
-  <li>What else I don’t know?</li>
-</ul>
-
-<ol>
-  <li>Library officer
-    <ul>
-      <li>When the officer spots <code class="highlighter-rouge">an empty seat with unattended belongings</code>, he can scan the seat’s QR code to check the seat occupancy status and user’s time away.</li>
-      <li>If the time away is more than XX minutes, he can clear it so other people can use the seats. If not, leave it.</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="what-i-did">What I did?</h3>
-<p>Here’s the prototype:
-<a href="https://drive.google.com/file/d/1YFOiVqJ-lVX4lrwmGXj5N8i1nbxUNkVF/view?usp=sharing"><img src="/images/projects/library-seat-2.png" alt="grab a seat library prototype" /></a></p>
-
-<p>Fun fact: I did submit this prototype to NLB in Singapore expecting no response. Surprisingly, they replied and invited me to library for a chat to understand more about the solution. Unfortunately, they decided not to proceed with this idea. But that’s OK. I enjoyed working on this project.</p>
-
-
-	</div>
-
-</section>
 
 		</div>
 

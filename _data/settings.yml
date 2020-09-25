@@ -16,6 +16,8 @@ menu_settings:
       url: '/projects/'
     - title: 'Product Management'
       url: '/product-management'
+    - title: 'Books'
+      url: '/books'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
