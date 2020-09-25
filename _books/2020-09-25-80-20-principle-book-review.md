@@ -1,9 +1,9 @@
 ---
-title: 'The 80/20 Principle Book Review'
-subtitle: ''
+title: 'Book Review: The 80/20 Principle'
+subtitle: 'How 80/20 is applied in relationship'
 date: 2017-08-12
-description: ''
-featured_image: '/images/books/the-80-20-principle-cover.jpg'
+description: 'How 80/20 is applied in relationship'
+featured_image: '/images/books/the-80-20-principle-cover.jpeg'
 group: article
 ---
 ### Notes
@@ -37,7 +37,7 @@ I find it’s interesting to view this idea from the angle of love relationship 
 2. Once the list of activities are set, each of you to answer 3 questions: (1) Does this activity make you make you feel “I’m in love”? , (2) How much time does this activity require from each side? (3) How much effort does this activity require from each side?
 3. An rough example of a list could be like this. From then on, you will realise maybe you’re spending lesser time than what you think.
 
-![80/20 principle in love](/images/books/the-80-20-principle-cover.png)
+![80/20 principle in relationship](/images/books/the-80-20-principle-love-table.png)
 
 4. From then on, drill down to those activities that make you both happy. Is there a way to have more of these activities and get rid of those that don’t bring joy to you both? For those busy people out there, you can find ways to optimise those that take a lot of time and effort.
 5. The final list should be those activities that both of you like. This will result in shorter time spent with each other yet still yield a healthy relationship.

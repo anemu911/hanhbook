@@ -13,6 +13,9 @@ collections:
   simple-living:
     output: true
     permalink: /simple-living/:slug
+  books:
+    output: true
+    permalink: /books/:slug
 
 
 defaults:
@@ -43,6 +46,12 @@ defaults:
     scope:
       path: ""
       type: "simple-living"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "books"
     values:
       layout: "project"
 
