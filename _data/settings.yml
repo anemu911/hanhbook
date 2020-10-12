@@ -65,7 +65,7 @@ color_settings:
   background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
   text_dark_color: '#2A2F36'
-  text_medium_color: '#3A3A3A'
+  text_medium_color: '#333'
   text_light_color: '#4E4E4E'
   accent_color: '#0C5DF2'
   border_color: '#dddddd'
@@ -78,9 +78,9 @@ font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
   # title_font: '"Montserrat", sans-serif'
   # body_font: '"Montserrat", sans-serif'
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">'
-  title_font: '"Poppins", sans-serif'
-  body_font: '"Poppins", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">'
+  title_font: '"Roboto", sans-serif'
+  body_font: '"Roboto", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
@@ -157,12 +157,12 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 14
-    medium_size: 16
-    large_size: 18
+    small_size: 16
+    medium_size: 18
+    large_size: 20
     weight: 300
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.8
   blockquote:
     small_size: 25
     medium_size: 35
