@@ -64,7 +64,7 @@ social_settings:
 color_settings:
   background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
+  text_dark_color: '#333'
   text_medium_color: '#333'
   text_light_color: '#4E4E4E'
   accent_color: '#0C5DF2'
@@ -115,8 +115,8 @@ font_settings:
     weight: 300
     letter_spacing: 0
   h1:
-    small_size: 20
-    medium_size: 30
+    small_size: 30
+    medium_size: 35
     large_size: 40
     weight: 500
     letter_spacing: -0.02
