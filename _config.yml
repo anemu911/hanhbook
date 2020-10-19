@@ -16,6 +16,9 @@ collections:
   books:
     output: true
     permalink: /books/:slug
+  corner:
+    output: true
+    permalink: /corner/:slug
 
 
 defaults:
@@ -52,6 +55,12 @@ defaults:
     scope:
       path: ""
       type: "books"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "corner"
     values:
       layout: "project"
 

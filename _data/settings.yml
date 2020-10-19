@@ -18,6 +18,8 @@ menu_settings:
       url: '/product-management'
     - title: 'Books'
       url: '/books'
+    - title: 'Corner'
+      url: '/corner'
     - title: 'About'
       url: '/about'
     - title: 'Contact'

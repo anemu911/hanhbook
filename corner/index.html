@@ -1,0 +1,43 @@
+---
+layout: default
+title: Dung Beo's corner
+description: Random drawings
+featured_image: /images/social.jpg
+---
+<section class="intro">
+	<div class="wrap">
+		<h1>Dung Beo's Corner</h1>
+	</div>
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for corner in site.corner reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ corner.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ corner.featured_image  }}" alt="{{ corner.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<p class="portfolio-item__subtitle">{{ corner.date | date: "%d/%m/%Y" }}</p>
+						<h2 class="portfolio-item__title">{{ corner.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ corner.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
