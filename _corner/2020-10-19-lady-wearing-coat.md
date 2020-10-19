@@ -10,4 +10,4 @@ group: article
 ###  Background
 The inspiration came from.....
 
-![Lady wearing coat](/images/corner/lady-wearing-coat.jpg')
+![Lady wearing coat](/images/corner/lady-wearing-coat.jpg)
