@@ -2,7 +2,7 @@
 title: About me
 subtitle:
 description: Who's running the show
-featured_image: /images/hanhbook-photo.jpg
+featured_image: /images/hanhbook-photo.jpeg
 ---
 
 I'm Hanh. This blog is written by me and sometimes, contributed by my friends.
