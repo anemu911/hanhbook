@@ -80,35 +80,35 @@ font_settings:
   # font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
   # title_font: '"Montserrat", sans-serif'
   # body_font: '"Montserrat", sans-serif'
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Oxygen:400,500" rel="stylesheet">'
   title_font: '"Roboto", sans-serif'
   body_font: '"Roboto", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
-    small_size: 15
+    small_size: 16
     medium_size: 20
     large_size: 30
     weight: 500
     letter_spacing: -0.02
   site_tagline:
-    small_size: 14
-    medium_size: 16
-    large_size: 18
+    small_size: 16
+    medium_size: 18
+    large_size: 20
     weight: 300
     letter_spacing: 0
     line_height: 1.5
   menu:
-    small_size: 30
-    medium_size: 15
-    large_size: 16
-    weight: 500
+    small_size: 16
+    medium_size: 18
+    large_size: 20
+    weight: 600
     letter_spacing: 0
   grid_item_title:
     small_size: 22
     medium_size: 26
     large_size: 30
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
   grid_item_subtitle:
     small_size: 15
@@ -120,49 +120,49 @@ font_settings:
     small_size: 30
     medium_size: 35
     large_size: 40
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.2
   h2:
     small_size: 18
     medium_size: 26
     large_size: 30
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.2
   h3:
     small_size: 22
     medium_size: 25
     large_size: 30
-    weight: 500
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.3
   h4:
     small_size: 17
     medium_size: 22
     large_size: 22
-    weight: 500
+    weight: 700
     letter_spacing: 0
     line_height: 1.6
   h5:
     small_size: 17
     medium_size: 20
     large_size: 20
-    weight: 500
+    weight: 700
     letter_spacing: 0
     line_height: 1.6
   h6:
     small_size: 17
     medium_size: 20
     large_size: 20
-    weight: 500
+    weight: 700
     letter_spacing: 0
     line_height: 1.6
   p:
     small_size: 16
-    medium_size: 18
-    large_size: 20
-    weight: 300
+    medium_size: 17
+    large_size: 19
+    weight: 400
     letter_spacing: 0
     line_height: 1.8
   blockquote:
