@@ -1,5 +1,5 @@
 ---
-title: 'Freshsales Connector Privacy Policy'
+title: 'Freshsales Google Sheet Connector Privacy Policy'
 subtitle: ''
 date: 2020-05-13
 description: ''
