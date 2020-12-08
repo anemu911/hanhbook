@@ -1,5 +1,5 @@
 ---
-title: 'Freshsales GSheet Connector BTS'
+title: 'Freshsales Google Sheet Connector BTS'
 subtitle: ''
 date: 2020-05-10
 description: ''
