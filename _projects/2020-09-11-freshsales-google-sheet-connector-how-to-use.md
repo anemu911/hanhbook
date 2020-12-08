@@ -1,5 +1,5 @@
 ---
-title: 'Freshsales GSheet Connector How to use'
+title: 'Freshsales Google Sheet Connector How to use'
 subtitle: ''
 date: 2020-09-11
 description: ''
