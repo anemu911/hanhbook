@@ -1,5 +1,5 @@
 ---
-title: 'Freshsales Connector Intro'
+title: 'Freshsales Google Sheet Connector Intro'
 subtitle: 'Connect data from Freshsales to Google Sheets for reporting'
 date: 2020-05-13
 description: 'Connect data from Freshsales to Google Sheets for reporting'
@@ -14,4 +14,4 @@ This add-on allows users to filter deals from Freshsales based on criteria like 
 If you have any question, please email us at anemu911@gmail.com
 
 ### Other links
-[Privacy policy](/projects/freshsales-connector-privacy-policy)
+[Privacy policy](/projects/freshsales-google-sheet-connector-privacy-policy)
