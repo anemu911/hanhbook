@@ -84,7 +84,7 @@ font_settings:
   title_font: '"Roboto", sans-serif'
   body_font: '"Roboto", sans-serif'
   regular_weight: 300
-  bold_weight: 500
+  bold_weight: 700
   site_title:
     small_size: 16
     medium_size: 20
