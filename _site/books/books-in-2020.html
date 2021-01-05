@@ -8,29 +8,31 @@
 
 	<!-- Page Info
 	<link rel="shortcut icon" href="/images/photo-japan.jpg">
-  <title>Freshsales Google Sheet Connector BTS – Han(h)book</title>
-	<meta name="description" content="">
+  <title>Books in 2020 – Han(h)book</title>
+	<meta name="description" content="List of books I read in 2020">
 	-->
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Freshsales Google Sheet Connector BTS</title>
+<title>Books in 2020</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="Freshsales Google Sheet Connector BTS" />
+<meta property="og:title" content="Books in 2020" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/projects/freshsales-google-sheet-connector" />
-<meta property="og:url" content="http://localhost:4000/projects/freshsales-google-sheet-connector" />
+<meta name="description" content="List of books I read in 2020" />
+<meta property="og:description" content="List of books I read in 2020" />
+<link rel="canonical" href="http://localhost:4000/books/books-in-2020" />
+<meta property="og:url" content="http://localhost:4000/books/books-in-2020" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-05-10T00:00:00+08:00" />
+<meta property="article:published_time" content="2021-01-05T00:00:00+08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Freshsales Google Sheet Connector BTS","dateModified":"2020-05-10T00:00:00+08:00","datePublished":"2020-05-10T00:00:00+08:00","url":"http://localhost:4000/projects/freshsales-google-sheet-connector","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/freshsales-google-sheet-connector"},"@context":"https://schema.org"}</script>
+{"description":"List of books I read in 2020","@type":"BlogPosting","headline":"Books in 2020","dateModified":"2021-01-05T00:00:00+08:00","datePublished":"2021-01-05T00:00:00+08:00","url":"http://localhost:4000/books/books-in-2020","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/books/books-in-2020"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<meta name="robots" content="index,follow">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Freshsales Google Sheet Connector BTS – Han(h)book" />
-	<meta property="og:description" content="" />
-	<meta property="og:image" content="http://localhost:4000/images/projects/freshsales-gsheet-connector.png" />
+	<meta property="og:title" content="Books in 2020 – Han(h)book" />
+	<meta property="og:description" content="List of books I read in 2020" />
+	<meta property="og:image" content="http://localhost:4000/images/books/books-2020.jpg" />
 	
 	
 	<!-- Font Embed Code -->
@@ -72,7 +74,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/projects/freshsales-google-sheet-connector">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/books/books-in-2020">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQNPDXJ"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -274,13 +276,13 @@
 
 	<div class="page">
 
-		<div class="page__content" data-page-title="Freshsales Google Sheet Connector BTS – Han(h)book">
+		<div class="page__content" data-page-title="Books in 2020 – Han(h)book">
 
 			<section class="intro">
 
 	<div class="wrap">
-		<h1>Freshsales Google Sheet Connector BTS</h1>
-		<p></p>
+		<h1>Books in 2020</h1>
+		<p>List of books I read in 2020</p>
 
 	</div>
 
@@ -290,59 +292,48 @@
 
 	<div class="wrap">
 
-		<h3 id="problem">Problem</h3>
-<p>My company switches from Salesforce to Freshsales. For reporting purposes, users need to download reports in CSV from Freshsales and upload into Google Sheet (GSheet) to further sync with other data. Salesforces has an existing GSheet connector but Freshsales doesn’t.</p>
+		<h3 id="move-to-e-book">Move to e-book</h3>
+<p>Earlier in 2020, I made a decision to read all books in digital format, which is Kindle for me. And I made it!!! I did quite a bit of highlights (in Kindle of course), which made writing my book review easier.</p>
 
-<h3 id="approach">Approach</h3>
-<p>This is a perfect use case to be tackled using Google Apps Script. The more I get to know about GAS, the more I realise how powerful Google is. It’s so hard not to use Google because of the eco-system it creates for users and developers. Anyway, I digress. As I don’t have any experience in creating a full add-ons before so I really took step by step, hard coded as much as I could before switching on one variable by one variable.</p>
+<h3 id="books-in-2020">Books in 2020</h3>
+<p>1.) March 2020 - <strong>Awareness: Conversations with the Masters</strong> by Anthony de Mello, SJ, J. Francis Stroud</p>
 
-<h3 id="mvp">MVP</h3>
-<p><em>Scope:</em>
-The MVP in my mind is simple. User is able to “log in” using their Freshsales account and retrieve data based on specified filters. The report would then be retrieved and inserted into the current GSheet.</p>
+<p>A book talking about the importance of awareness. It’s somewhat related to meditation as well. <code class="highlighter-rouge">What you are aware of you are in control; what you are not aware of is in control of you</code></p>
 
-<p><em>Steps taken:</em>
-My first use case is simple: Get deals based on 2 filters - deal pipeline and created date.</p>
+<p>2.) April 2020 - <strong>Out of the Silence: After the Crash</strong> by Eduardo Strauch, Mireya Soriano, Jennie Erikson</p>
 
-<ol>
-  <li>Go into Freshsales and figure what APIs are required to generate data. Test them using Postman. Zoom down into what APIs and what required data that I can access and manipulate.</li>
-  <li>Go to GAS and call the same APIs in Google Apps Script using <a href="https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app">URLFetchApp</a>. I did a lot of trial and error to ensure I can retrieve and access data as I want. Any other variables required to access API at this point were hard coded.</li>
-  <li>In GAS, from the data I got, I wrote a function to transform it to CSV format and paste in Google Sheet using <a href="https://developers.google.com/apps-script/reference/spreadsheet/range#setvaluesvalues">Range function</a>. At this point, I just used “hard-coded” columns as selected columns were not in my MVP.</li>
-</ol>
+<p>A personal story about 1972 Andes plane crash. How the team suffered through 72 days in a deadly cold weather without food. It was quite touching and unimaginable to think what human would do in such scenario.</p>
 
-<p>With this backbone, I could add more stuff to create a full product.</p>
+<p>3.) April 2020 - <strong>Hacking Darwin: Genetic Engineering and teh Future of Humanity</strong> by Jamie Metzl</p>
 
-<ol>
-  <li>
-    <p>Once the first use case was roughly done, I started working on the <a href="https://developers.google.com/apps-script/guides/html">frontend</a>. This was when I switched on one variable by one that I hard coded before. I started with url, token and date. Then I added pipeline, columns in CSV and stage. I went back and forth to modify the backend to receive and send data when necessary. This part really took a lot of time. Not just that, I struggled with the design and in the end used Bootstrap to get rid of the design headache. I also experimented with showing errors at this point.</p>
-  </li>
-  <li>
-    <p>Now I had a workable add-on, I turned my attention to the CSV and I realised that there were a lot of values in <code class="highlighter-rouge">id</code>, not the actual <code class="highlighter-rouge">value</code> for some columns. I modified the backend so that when it transforms data, it will try to map the <code class="highlighter-rouge">value</code> with the <code class="highlighter-rouge">id</code> instead.</p>
-  </li>
-</ol>
+<p>Such an eye-opening book about genome editing. I was exposed to the possibilities of creating a <code class="highlighter-rouge">better</code> human thanks to this book. As I got so interested in this, I bought ARKG - a genome-related stock.</p>
 
-<h3 id="result">Result</h3>
-<p>Below is the MVP looks so far</p>
+<p>4.) June 2020: <strong>Eat Pray Love</strong> by Elizabeth Gilbert</p>
 
-<p><strong>User has to put in company name and API token</strong></p>
+<p>A book read together with my other 2 friends. I rarely read this genre but it was really a good one, from the plot to language. So many good quotes in this. <code class="highlighter-rouge">The only unthinkable that leaving was staying</code>. <code class="highlighter-rouge">Prayer is a relationship; half the job is mine.</code></p>
 
-<p><img src="/images/projects/fs-login.png" alt="Freshsales GSheet Login" /></p>
+<p>5.) July 2020: <strong>1Q84</strong> by Haruki Murakami, Jay Rubin and Philip Gabriel</p>
 
-<p><strong>User can select which columns to show in CSV instead of retrieving everything:</strong></p>
+<p>This book is really worth the hype. The plot is super engaging, which I really like. I don’t like how naked and unnecessary the language is used when describing sex scenes (which are a lot of them).</p>
 
-<p><img src="/images/projects/fs-columns.png" alt="Freshsales GSheet Columns" /></p>
+<p>6.) July 2020: <strong>Mistakes were made (but not by me)</strong> by Caroll Tavris, Elliot Aronson</p>
 
-<p><strong>Basic filters: date, pipeline, stage:</strong>
-<img src="/images/projects/fs-filters.png" alt="Freshsales GSheet Filters" /></p>
+<p>Unfortunately I couldn’t remember much. But here is a note that I highlighted: <code class="highlighter-rouge">Doubt is not the enemy of justice; overconfidence is</code>. <a href="/books/the-sales-acceleration-formula-book-review">Review</a></p>
 
-<h3 id="learnings">Learnings</h3>
-<p>Reading documents is key. My comprehension was not fast so I had to read, try then realise it didn’t work. Sometimes, it was because of typo.
-Spending too much on design is never a good idea in creating MVP.
-I learnt how to send data to frontend and vice versa. It turns out to be very tedious and I really appreciate all the interactions I saw on the website.</p>
+<p>7.) September 2020: <strong>Moonwalking with Einstein: The Art and Science of Remembering Everything</strong> by Joshua Foer</p>
 
-<p><strong>Personal Notes:</strong> The first time I started writing my first line in Javascript was with Google Apps Script. Last time when it came to coding, I took time to understand things and I was usually annoyed at myself and tired because the code most of the time didn’t work (it still doesn’t because of some silly mistakes). I never know that I have come this far: able to create a Google Sheet add-on. The code is not complex but knowing every single line I wrote was a reflection / result of such a painful yet exciting self-learn journey I have undertaken. I want to thank my patience and my belief to keep learning though not knowing the future.</p>
+<p>Interesting book about memory and how human can really re-define how much you can remember. <a href="/books/moonwalking-with-einstein-book-review">Review</a></p>
 
-<h3 id="updates">Updates</h3>
-<p>Finally my add-on got approved. It was so painful, partly I had to learn how to provide necessary information to the reviewer (I didn’t know that they manually reviewed every add-on). Since then, I did multiple updates to make it look nicer and add few more functions. It was a great project that I did lose sleep and was stressed over it sometimes but it was so worth it.</p>
+<p>8.) October 2020: <strong>Barking Up the wrong tree</strong> by Eric Barker</p>
+
+<p>A great self-help book. What can help you succeed? <code class="highlighter-rouge">Pick the right pond. Find a job that leverages your intensifiers. Create a story thta keeps you going. Make little bets that expand your horizons. Use WOOP to turn your dreams into realities.</code> WOOP = wish, outcome, obstacle and plan</p>
+
+<p>9.) Ocotober 2020: <strong>The ride of a lifetime</strong> by Bob Iger
+It’s a business book that teaches me beyond business. It’s about how to think clearly, be resilient and treat people with sincere. I love that he gave anecdotes that make his points more relatable. <a href="/books/the-ride-of-a-lifetime-book-review">Review</a></p>
+
+<p>10.) November 2020: <strong>Promised Land</strong> by Barack Obama (will be spilled over to 2021)</p>
+
+<p>I’m still reading. This is a gonna be a long read.</p>
 
 
 	</div>
