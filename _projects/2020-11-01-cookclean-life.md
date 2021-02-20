@@ -46,3 +46,31 @@ Updated 1 Nov: Based on these hypotheses, I did few tweaks here and there. Hopef
 **Write blog**
 
 I also need to update my blog [http://blog.cookclean.life/](http://blog.cookclean.life/). I decided my main content will be meal planning diary as I do meal prep weekly so I don't have to think much. However, the problem is I kept forgetting to take photos to use in the blog. I find the `taking photos` is disruptive to my experience in general. I'm not sure how other bloggers do it. Don't they find the experience is broken because you need to capture the experience? I still try my best to remember but somehow I keep forgetting. So far, my blog hasn't helped with traffic yet, but I guess I shouldn't be too impatient. What will come will come.
+
+**Website**
+
+Updated 20 Feb 2021: As I thought I might do some changes to the website so I wanted to screenshot few pages before they get changed.
+
+*Main page: Why you should meal prep*
+
+![Main page: Why you should meal prep](/images/projects/cookclean/page 1.png)
+
+*Ingredients page: Choose ingredients you want to reuse*
+
+![Ingredients page: Choose ingredients you want to reuse](/images/projects/cookclean/page 2.png)
+
+*Recipes page: Select recipes for your meal prep*
+
+![Recipes page: Select recipes for your meal prep](/images/projects/cookclean/page 3.png)
+
+*Recipes page: Find recipes by adding / removing ingredients*
+
+![Recipes page: Find recipes by adding / removing ingredients](/images/projects/cookclean/page 3 - search ingredient.png)
+
+*Recipes page: Selected recipes*
+
+![Recipes page: Selected recipes](/images/projects/cookclean/page 3 - selected recipes.png)
+
+*Individual recipe page: Show detailed ingredients of a recipe*
+
+![Individual recipe page: Show detailed ingredients of a recipe](/images/projects/cookclean/page 4 - individual recipe.png)
