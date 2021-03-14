@@ -1,9 +1,9 @@
 ---
-title: 'Flashcard Clock Privacy Policy'
+title: 'FlashClock Privacy Policy'
 subtitle: ''
-date: 2020-08-17
+date: 2021-03-14
 description: ''
-featured_image: '/images/projects/flashcard-clock-logo.png'
+featured_image: '/images/projects/flashclock-icon.png'
 group: article
 ---
 
