@@ -32,6 +32,7 @@ On a bright side, Freshchat does allow JS-enabled custom apps to be added to its
 - Click "Send"
 
 ![Whatsapp interface](/images/projects/whatsapp-fc-how-to-use/whatsapp-interface.png)
+
 ![Whatsapp interface 2](/images/projects/whatsapp-fc-how-to-use/whatsapp-interface-2.png)
 
 4.) Upon successful send, the app will send you a private note with the message content in conversation thread
