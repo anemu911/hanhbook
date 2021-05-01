@@ -8,29 +8,31 @@
 
 	<!-- Page Info
 	<link rel="shortcut icon" href="/images/photo-japan.jpg">
-  <title>Freshsales Google Sheet Connector BTS – Han(h)book</title>
-	<meta name="description" content="">
+  <title>Habit forming – Han(h)book</title>
+	<meta name="description" content="How can I form my habit better?">
 	-->
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Freshsales Google Sheet Connector BTS</title>
+<title>Habit forming</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="Freshsales Google Sheet Connector BTS" />
+<meta property="og:title" content="Habit forming" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/projects/freshsales-google-sheet-connector" />
-<meta property="og:url" content="http://localhost:4000/projects/freshsales-google-sheet-connector" />
+<meta name="description" content="How can I form my habit better?" />
+<meta property="og:description" content="How can I form my habit better?" />
+<link rel="canonical" href="http://localhost:4000/simple-living/habit-forming" />
+<meta property="og:url" content="http://localhost:4000/simple-living/habit-forming" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-05-10T00:00:00+08:00" />
+<meta property="article:published_time" content="2021-05-01T00:00:00+08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/projects/freshsales-google-sheet-connector","headline":"Freshsales Google Sheet Connector BTS","dateModified":"2020-05-10T00:00:00+08:00","datePublished":"2020-05-10T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/freshsales-google-sheet-connector"},"@context":"https://schema.org"}</script>
+{"description":"How can I form my habit better?","@type":"BlogPosting","url":"http://localhost:4000/simple-living/habit-forming","headline":"Habit forming","dateModified":"2021-05-01T00:00:00+08:00","datePublished":"2021-05-01T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/simple-living/habit-forming"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	<meta name="robots" content="index,follow">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Freshsales Google Sheet Connector BTS – Han(h)book" />
-	<meta property="og:description" content="" />
-	<meta property="og:image" content="http://localhost:4000/images/projects/freshsales-gsheet-connector.png" />
+	<meta property="og:title" content="Habit forming – Han(h)book" />
+	<meta property="og:description" content="How can I form my habit better?" />
+	<meta property="og:image" content="http://localhost:4000/images/simple-living/chloe-ting-exercise.png" />
 	
 	
 	<!-- Font Embed Code -->
@@ -72,7 +74,7 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/projects/freshsales-google-sheet-connector">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/simple-living/habit-forming">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQNPDXJ"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -294,15 +296,15 @@
 
 	<div class="page">
 
-		<div class="page__content" data-page-title="Freshsales Google Sheet Connector BTS – Han(h)book">
+		<div class="page__content" data-page-title="Habit forming – Han(h)book">
 
 			<section class="intro">
 
 	<div class="wrap">
-		<small>2020-05-10 00:00:00 +0800</small>
+		<small>2021-05-01 00:00:00 +0800</small>
 		<br><br>
-		<h1>Freshsales Google Sheet Connector BTS</h1>
-		<p></p>
+		<h1>Habit forming</h1>
+		<p>How can I form my habit better?</p>
 
 	</div>
 
@@ -312,59 +314,50 @@
 
 	<div class="wrap">
 
-		<h3 id="problem">Problem</h3>
-<p>My company switches from Salesforce to Freshsales. For reporting purposes, users need to download reports in CSV from Freshsales and upload into Google Sheet (GSheet) to further sync with other data. Salesforces has an existing GSheet connector but Freshsales doesn’t.</p>
+		<h3 id="background">Background</h3>
 
-<h3 id="approach">Approach</h3>
-<p>This is a perfect use case to be tackled using Google Apps Script. The more I get to know about GAS, the more I realise how powerful Google is. It’s so hard not to use Google because of the eco-system it creates for users and developers. Anyway, I digress. As I don’t have any experience in creating a full add-ons before so I really took step by step, hard coded as much as I could before switching on one variable by one variable.</p>
+<p>Recently I was introduced to Hook framework by Nir Eyal. The framework tells you “what it takes” for a habit to form, be it a habit of using an app or a personal exercise routine. There are 4 elements in this habit-forming framework: trigger (internal or external), action, reward (of the action) and reinvestment. Other habit-framing framework stops at rewards and assumes that it’s enough to trigger your action next time. But Eyal includes reinvestment and emphasises that it’s what makes the habit sticks . According to him, reinvestment is what “bit of work” to increase likelihood of returning.</p>
 
-<h3 id="mvp">MVP</h3>
-<p><em>Scope:</em>
-The MVP in my mind is simple. User is able to “log in” using their Freshsales account and retrieve data based on specified filters. The report would then be retrieved and inserted into the current GSheet.</p>
+<p>In this article, I want to evaluate the framework against my personal habits / future habits. Is there anything else that I should do to make it “stick”.</p>
 
-<p><em>Steps taken:</em>
-My first use case is simple: Get deals based on 2 filters - deal pipeline and created date.</p>
+<h3 id="exercise-in-the-morning">Exercise in the morning</h3>
 
-<ol>
-  <li>Go into Freshsales and figure what APIs are required to generate data. Test them using Postman. Zoom down into what APIs and what required data that I can access and manipulate.</li>
-  <li>Go to GAS and call the same APIs in Google Apps Script using <a href="https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app">URLFetchApp</a>. I did a lot of trial and error to ensure I can retrieve and access data as I want. Any other variables required to access API at this point were hard coded.</li>
-  <li>In GAS, from the data I got, I wrote a function to transform it to CSV format and paste in Google Sheet using <a href="https://developers.google.com/apps-script/reference/spreadsheet/range#setvaluesvalues">Range function</a>. At this point, I just used “hard-coded” columns as selected columns were not in my MVP.</li>
-</ol>
+<p>For me, exercise used to be a “habit” for nearly 2 months as I forced myself to go through 2 30-day  challenges. But unfortunately, it kinda stops for now.</p>
 
-<p>With this backbone, I could add more stuff to create a full product.</p>
+<ul>
+  <li>Trigger: I enjoy spending morning to take care of myself so naturally, it’s an internal trigger. I also have my exercise schedule and workout clothes ready the night before. There are 2 things that block me: (1) Duration (40 mins of workout and 20 mins of wash-up - that’s a good 1 hour gone in the morning), (2) Anxiety from upcoming work (I tend to get anxious if I know that I have to tackle difficult work later on. If I get anxious, I tend to work on the “anxious” tasks first).</li>
+  <li>Action: Go through the drill. Usually, I don’t find myself enjoying the process but I do know it’s for my health. Sometimes, I’m amazed at how strong I’ve come to hold certain pose.</li>
+  <li>Reward: Usually after each workout, there is no instant gratification apart from believing that I will feel better. Maybe this is missing. Maybe I can give myself a treat after each workout.</li>
+  <li>Reinvestment: I do write exercise journal after workout (another 20 mins). I guess I do want to look back and see myself how I have bettered myself through small and consistent actions everyday.</li>
+</ul>
 
-<ol>
-  <li>
-    <p>Once the first use case was roughly done, I started working on the <a href="https://developers.google.com/apps-script/guides/html">frontend</a>. This was when I switched on one variable by one that I hard coded before. I started with url, token and date. Then I added pipeline, columns in CSV and stage. I went back and forth to modify the backend to receive and send data when necessary. This part really took a lot of time. Not just that, I struggled with the design and in the end used Bootstrap to get rid of the design headache. I also experimented with showing errors at this point.</p>
-  </li>
-  <li>
-    <p>Now I had a workable add-on, I turned my attention to the CSV and I realised that there were a lot of values in <code class="highlighter-rouge">id</code>, not the actual <code class="highlighter-rouge">value</code> for some columns. I modified the backend so that when it transforms data, it will try to map the <code class="highlighter-rouge">value</code> with the <code class="highlighter-rouge">id</code> instead.</p>
-  </li>
-</ol>
+<p><strong>Next steps:</strong> Let’s try making energy balls as a treat after workout.</p>
 
-<h3 id="result">Result</h3>
-<p>Below is the MVP looks so far</p>
+<h3 id="meal-prep">Meal prep</h3>
 
-<p><strong>User has to put in company name and API token</strong></p>
+<p>When it comes to food, I have few criteria: (1) Healthy, (2) Moderately delicious, (3) Low waste and (4) Efficient. Hence, to me, meal prep is the only answer though I don’t really enjoy cooking that much.</p>
 
-<p><img src="/images/projects/fs-login.png" alt="Freshsales GSheet Login" /></p>
+<ul>
+  <li>Trigger: They are the criteria I mentioned above. Another internal trigger is that I don’t have time to ask myself what I should eat today, and start preparing meal from scratch. If that moment comes, I  usually end up in order food delivery that results in waste - a lot of it.</li>
+  <li>Action: 2.5–3 hours of grocery shopping and preparing. Once every week. Then on the day itself, I spend additional 10–15 mins reheating food. I also have a meal plan calendar that takes off the burden of what to eat today.</li>
+  <li>Reward: The feeling of eating good, healthy, low-waste food warms my stomach.</li>
+  <li>Reinvestment: Actually I don’t need much reinvestment as the trigger comes naturally itself, once every week. However, recently, I decide to actively ask feedback from my co-diner, my husband so that I can improve my meal plan better.</li>
+</ul>
 
-<p><strong>User can select which columns to show in CSV instead of retrieving everything:</strong></p>
+<p><strong>Next steps:</strong> I think I’m doing OK here. Let’s keep it up and explore more recipes.</p>
 
-<p><img src="/images/projects/fs-columns.png" alt="Freshsales GSheet Columns" /></p>
+<h3 id="personal-project">Personal project</h3>
 
-<p><strong>Basic filters: date, pipeline, stage:</strong>
-<img src="/images/projects/fs-filters.png" alt="Freshsales GSheet Filters" /></p>
+<p>For personal work, unlike habits, it’s hard to form habit with the unknown. This personal work requires me to explore, study and implement. I guess that’s the fun of it.</p>
 
-<h3 id="learnings">Learnings</h3>
-<p>Reading documents is key. My comprehension was not fast so I had to read, try then realise it didn’t work. Sometimes, it was because of typo.
-Spending too much on design is never a good idea in creating MVP.
-I learnt how to send data to frontend and vice versa. It turns out to be very tedious and I really appreciate all the interactions I saw on the website.</p>
+<ul>
+  <li>Trigger: I rely on my discipline. I try to schedule 2–3 hour block in advance but the only day I can fit is weekend. I try to squeeze it in weekday before but it’s hard as I’m either tired from looking at the screen all day or I get distracted very easily if I try to squeeze it during working hours. I think timing is something I have to deal with here.</li>
+  <li>Action: Once I manage to get my mind into it, I tend to just follow my goal for that 2 hours. Sometimes, as I have to figure my way out, it takes longer than 2 hours. It can go up to 4–5 hours easily.</li>
+  <li>Reward: Most of the time, after the hour, I tell myself I have crossed off certain tasks. And I do keep the list of tasks (high level) in notion.</li>
+  <li>Reinvestment: Just hunger to complete a milestone makes me coming back.</li>
+</ul>
 
-<p><strong>Personal Notes:</strong> The first time I started writing my first line in Javascript was with Google Apps Script. Last time when it came to coding, I took time to understand things and I was usually annoyed at myself and tired because the code most of the time didn’t work (it still doesn’t because of some silly mistakes). I never know that I have come this far: able to create a Google Sheet add-on. The code is not complex but knowing every single line I wrote was a reflection / result of such a painful yet exciting self-learn journey I have undertaken. I want to thank my patience and my belief to keep learning though not knowing the future.</p>
-
-<h3 id="updates">Updates</h3>
-<p>Finally my add-on got approved. It was so painful, partly I had to learn how to provide necessary information to the reviewer (I didn’t know that they manually reviewed every add-on). Since then, I did multiple updates to make it look nicer and add few more functions. It was a great project that I did lose sleep and was stressed over it sometimes but it was so worth it.</p>
+<p><strong>Next steps:</strong> Let’s try committing 6 hours: 3 in weekday and another 3 in weekend. For weekend, maybe Friday where I have less meetings. The catch is to figure out what I have to do prior to the 3 hour block. The 3 hour block is mainly for execution. So I need to create some time for planning prior to that, maybe Thursday.</p>
 
 
 	</div>
