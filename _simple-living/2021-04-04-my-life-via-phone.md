@@ -1,7 +1,7 @@
 ---
 title: How I organise life in my phone
-description: I am are the apps I have in my phone
-subtitle: I am are the apps I have in my phone
+description: I am the apps I have in my phone
+subtitle: I am the apps I have in my phone
 featured_image: '/images/simple-living/phone-first-screen.jpg'
 date: 2021-04-04
 group: article
