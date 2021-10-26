@@ -14,7 +14,7 @@
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Recipe Matching</title>
-<meta name="generator" content="Jekyll v3.8.4" />
+<meta name="generator" content="Jekyll v3.9.1" />
 <meta property="og:title" content="Recipe Matching" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Reduce food waste by better meal planning" />
@@ -332,7 +332,7 @@
 <h3 id="approach">Approach</h3>
 <p>I plan to expand my recipe list from my favourite bloggers. Most of their recipe page have 3 sections: (1) Recipe name (2) Ingredients and (3) Instructions. For this project, I don’t really need the (3) Instructions. (1) Recipe and (2) Ingredients (name, amount and unit) are enough.</p>
 
-<p>Also, I will need to standardise the ingredients so that I can plan for meals that have <code class="highlighter-rouge">same</code> ingredients</p>
+<p>Also, I will need to standardise the ingredients so that I can plan for meals that have <code class="language-plaintext highlighter-rouge">same</code> ingredients</p>
 
 <p><em>Phase 1</em>: Testing logic in Google Sheet (1 week). The matching logic is pretty simple. (1) Choose a protein source, (2) Generate list of available recipes that match and select 1, (3) Choose 1 or more reusable ingredients from recipe 1, (4) Generate list of available recipes that match these ingredients.</p>
 
@@ -342,7 +342,7 @@
 
 <h3 id="phase-1-testing-logic">Phase 1: Testing logic</h3>
 <h4 id="recipe-data">Recipe data</h4>
-<p>I started crawling recipes from 1 website, which gives me about 60+ recipes. I used python to crawl. Since most food bloggers use Wordpress (or Wix) to manage their content so there is no hard rule about which part of the <code class="highlighter-rouge">text</code> refer to list of ingredients.</p>
+<p>I started crawling recipes from 1 website, which gives me about 60+ recipes. I used python to crawl. Since most food bloggers use Wordpress (or Wix) to manage their content so there is no hard rule about which part of the <code class="language-plaintext highlighter-rouge">text</code> refer to list of ingredients.</p>
 
 <p>At this point, I divide my crawler into 2 parts: the crawling part (just to download data) and cleaning part (to be done locally). This would make the process faster and I don’t have to re-crawl the data if I make mistake. The crawling part can be stardardised (more or less), but the cleaning part is quite customised for each website.</p>
 

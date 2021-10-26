@@ -14,7 +14,7 @@
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Seat Hogging</title>
-<meta name="generator" content="Jekyll v3.8.4" />
+<meta name="generator" content="Jekyll v3.9.1" />
 <meta property="og:title" content="Seat Hogging" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Solve seat hogging issue in public space" />
@@ -347,17 +347,17 @@
 <ol>
   <li>Library user
     <ul>
-      <li>Go to <code class="highlighter-rouge">an empty table</code> (unoccupied table) and scan QR code. (QR code contains unique seat number ad needs to be printed)</li>
+      <li>Go to <code class="language-plaintext highlighter-rouge">an empty table</code> (unoccupied table) and scan QR code. (QR code contains unique seat number ad needs to be printed)</li>
       <li>QR code directs user to a website / app to register for a seat in library.</li>
       <li>If the seat is not registered with any user, user can register with phone number and OTP (similar to registering for wifi). If not, user will need to find another seat.</li>
       <li>Once registration is successful, user is assigned to the seat based on the scanned QR code.</li>
-      <li>During seat occupying period, if user walks in and out of the library, the phone will detect <code class="highlighter-rouge">out status</code> (not necessarily location tracking) and keep track of how long user is away from the base location (i.e. library)</li>
+      <li>During seat occupying period, if user walks in and out of the library, the phone will detect <code class="language-plaintext highlighter-rouge">out status</code> (not necessarily location tracking) and keep track of how long user is away from the base location (i.e. library)</li>
       <li>If user is out for more than XX minutes, the seat is automatically unregistered so that other people can use.</li>
     </ul>
   </li>
 </ol>
 
-<p>Of course, there will be edge cases for each step above, but that’s the general flow. The <code class="highlighter-rouge">killer</code> function of this system is to ability to track in/out status of a user. This can be done by:</p>
+<p>Of course, there will be edge cases for each step above, but that’s the general flow. The <code class="language-plaintext highlighter-rouge">killer</code> function of this system is to ability to track in/out status of a user. This can be done by:</p>
 <ul>
   <li>Bluetooth and beacon: This setup requires initial logistic but offers higher location accuracy</li>
   <li>GPS tracking in phone: This setup requires lesser initial logistic but consumes phone battery very quickly.</li>
@@ -368,7 +368,7 @@
 <ol>
   <li>Library officer
     <ul>
-      <li>When the officer spots <code class="highlighter-rouge">an empty seat with unattended belongings</code>, he can scan the seat’s QR code to check the seat occupancy status and user’s time away.</li>
+      <li>When the officer spots <code class="language-plaintext highlighter-rouge">an empty seat with unattended belongings</code>, he can scan the seat’s QR code to check the seat occupancy status and user’s time away.</li>
       <li>If the time away is more than XX minutes, he can clear it so other people can use the seats. If not, leave it.</li>
     </ul>
   </li>

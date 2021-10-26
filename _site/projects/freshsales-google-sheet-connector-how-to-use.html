@@ -14,7 +14,7 @@
 
 	<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Freshsales Google Sheet Connector How to use</title>
-<meta name="generator" content="Jekyll v3.8.4" />
+<meta name="generator" content="Jekyll v3.9.1" />
 <meta property="og:title" content="Freshsales Google Sheet Connector How to use" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/projects/freshsales-google-sheet-connector-how-to-use" />
@@ -334,9 +334,9 @@
 After downloading from GSuite marketplace, you should be able to access the add-on</p>
 <ol>
   <li>Open a preferred GSheet</li>
-  <li>Click <code class="highlighter-rouge">Add-ons</code> in navigation</li>
-  <li>You will see <code class="highlighter-rouge">Freshsales Connector</code></li>
-  <li>You can either choose <code class="highlighter-rouge">Create report</code> (to create a new report and update data in GSheet) or <code class="highlighter-rouge">Manage saved reports</code> to run previously saved reports.</li>
+  <li>Click <code class="language-plaintext highlighter-rouge">Add-ons</code> in navigation</li>
+  <li>You will see <code class="language-plaintext highlighter-rouge">Freshsales Connector</code></li>
+  <li>You can either choose <code class="language-plaintext highlighter-rouge">Create report</code> (to create a new report and update data in GSheet) or <code class="language-plaintext highlighter-rouge">Manage saved reports</code> to run previously saved reports.</li>
 </ol>
 
 <p><img src="/images/projects/fs-how-to-use/fs-navigation.png" alt="How to access Freshsales GSheet Connector" /></p>
@@ -344,24 +344,24 @@ After downloading from GSuite marketplace, you should be able to access the add-
 <p><strong>Step 1:</strong> Key in company name, token and report type</p>
 
 <ol>
-  <li>Company name here refers to the part of the URL prior to <code class="highlighter-rouge">.freshsales.io</code>. For example: abc.freshsales.io, then company name is <code class="highlighter-rouge">abc</code>.</li>
-  <li>Token can be retrieved from API settings in Freshsales. This is the direct link: <em>https://company_name.freshsales.io/personal-settings/api-settings</em>. Remember to replace <code class="highlighter-rouge">company_name</code> with your actual company.</li>
+  <li>Company name here refers to the part of the URL prior to <code class="language-plaintext highlighter-rouge">.freshsales.io</code>. For example: abc.freshsales.io, then company name is <code class="language-plaintext highlighter-rouge">abc</code>.</li>
+  <li>Token can be retrieved from API settings in Freshsales. This is the direct link: <em>https://company_name.freshsales.io/personal-settings/api-settings</em>. Remember to replace <code class="language-plaintext highlighter-rouge">company_name</code> with your actual company.</li>
   <li>Choose report type. In Freshsales, there are quite a number of report types but I choose to sync 3 types: (1) Leads with converted, (2) Deals, and (3) Deals with Contacts. Other report types are not in my current use case so I haven’t added them in.</li>
 </ol>
 
-<p>Upon clicking <code class="highlighter-rouge">Retrieve details</code>, the add-on will try to access Freshsales and generate existing columns and filters. My trick is to let Chrome remember my token so I don’t have to find it again the next time I run report.</p>
+<p>Upon clicking <code class="language-plaintext highlighter-rouge">Retrieve details</code>, the add-on will try to access Freshsales and generate existing columns and filters. My trick is to let Chrome remember my token so I don’t have to find it again the next time I run report.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-users.png" alt="How key in names, token in Freshsales GSheet Connector" /></p>
 
 <p><strong>Step 2:</strong> Search and add columns</p>
 
-<p>They are actually fields in Freshsales. Depending on the reports you choose, fields here refer to those in <code class="highlighter-rouge">Leads</code> or <code class="highlighter-rouge">Deals</code>. They will be constructed as columns of your report in GSheet.</p>
+<p>They are actually fields in Freshsales. Depending on the reports you choose, fields here refer to those in <code class="language-plaintext highlighter-rouge">Leads</code> or <code class="language-plaintext highlighter-rouge">Deals</code>. They will be constructed as columns of your report in GSheet.</p>
 
 <p>Search by typing the field name in Freshsales. By clicking on the field, it will be added to the list of selected columns.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-search-column.png" alt="How to search column in Freshsales GSheet Connector" /></p>
 
-<p>The <code class="highlighter-rouge">List of selected columns</code> box below to refer to what you choose and order of the columns.</p>
+<p>The <code class="language-plaintext highlighter-rouge">List of selected columns</code> box below to refer to what you choose and order of the columns.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-selected-columns.png" alt="How to see selected columns in Freshsales GSheet Connector" /></p>
 
@@ -379,18 +379,18 @@ You can choose to retrieve results based on created at, closed date or stage upd
 <p><img src="/images/projects/fs-how-to-use/fs-mandatory-filter.png" alt="How to update time filter in Freshsales GSheet Connector" /></p>
 
 <p>Optional: Filters based on fields
-You can optionally add filters based on fields like territory, owners by clicking <code class="highlighter-rouge">Add</code>. Right now, the fields you can choose are limited to dropdown fields.</p>
+You can optionally add filters based on fields like territory, owners by clicking <code class="language-plaintext highlighter-rouge">Add</code>. Right now, the fields you can choose are limited to dropdown fields.</p>
 
 <p>Optional: Filter logic type
-Once you have more than 1 optional filter, you can change the logic type: <code class="highlighter-rouge">AND/OR</code> or a combination of both (applicable to 3 filters and above). This is helpful in case you want to retrieve data from 2 territories for example.</p>
+Once you have more than 1 optional filter, you can change the logic type: <code class="language-plaintext highlighter-rouge">AND/OR</code> or a combination of both (applicable to 3 filters and above). This is helpful in case you want to retrieve data from 2 territories for example.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-optional-filter.png" alt="How to update optional filters in Freshsales GSheet Connector" /></p>
 
-<p>Please note that you can’t remove filter one by one but you can reset all filters by clicking <code class="highlighter-rouge">Reset</code>.</p>
+<p>Please note that you can’t remove filter one by one but you can reset all filters by clicking <code class="language-plaintext highlighter-rouge">Reset</code>.</p>
 
 <p><strong>Step 4:</strong> Get report</p>
 
-<p>Now, all left is to click on <code class="highlighter-rouge">Get report</code> button to retrieve data from Freshsales. Note that the add on will:</p>
+<p>Now, all left is to click on <code class="language-plaintext highlighter-rouge">Get report</code> button to retrieve data from Freshsales. Note that the add on will:</p>
 
 <p>Show report in active tab. Meaning when the system is able to get data from Freshsales and ready to update GSheet, it will determine the active tab at that point. So you might want to wait instead of switching to different tab.</p>
 
@@ -405,25 +405,25 @@ Once you have more than 1 optional filter, you can change the logic type: <code 
 
 <p><strong>Step 1:</strong> Create report name</p>
 
-<p>Scroll down to the bottom at <code class="highlighter-rouge">Filters</code> tab and create a name in <code class="highlighter-rouge">Report Name</code>.</p>
+<p>Scroll down to the bottom at <code class="language-plaintext highlighter-rouge">Filters</code> tab and create a name in <code class="language-plaintext highlighter-rouge">Report Name</code>.</p>
 
-<p>You have an option to <code class="highlighter-rouge">Append data</code>, which will tell the system to append data after the last row that has content in the active sheet. This is helpful when for example, you want the system to retrieve leads of yesterday, then append it to previous days’ data. If you don’t choose <code class="highlighter-rouge">Append data</code>, it will just replace data in that sheet.</p>
+<p>You have an option to <code class="language-plaintext highlighter-rouge">Append data</code>, which will tell the system to append data after the last row that has content in the active sheet. This is helpful when for example, you want the system to retrieve leads of yesterday, then append it to previous days’ data. If you don’t choose <code class="language-plaintext highlighter-rouge">Append data</code>, it will just replace data in that sheet.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-save-report.png" alt="How to save report in Freshsales GSheet Connector" /></p>
 
 <p><strong>Step 2:</strong> Save report</p>
 
-<p>Click <code class="highlighter-rouge">Save report</code>.</p>
+<p>Click <code class="language-plaintext highlighter-rouge">Save report</code>.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-save-report-added.png" alt="How to know report is saved in Freshsales GSheet Connector" /></p>
 
 <p><strong>Step 3:</strong> Manage Saved Reports</p>
 
-<p>You can access this by clicking <code class="highlighter-rouge">Add-ons</code> in navigation, choose <code class="highlighter-rouge">Freshsales</code> and then <code class="highlighter-rouge">Manage saved reports</code>. If there are no reports yet, you will see this.</p>
+<p>You can access this by clicking <code class="language-plaintext highlighter-rouge">Add-ons</code> in navigation, choose <code class="language-plaintext highlighter-rouge">Freshsales</code> and then <code class="language-plaintext highlighter-rouge">Manage saved reports</code>. If there are no reports yet, you will see this.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-no-saved-report.png" alt="No saved in Freshsales GSheet Connector" /></p>
 
-<p>If there is at least 1, you will see the reports that you save before and those that are saved by people who have access to the documents and have Freshsales installed. If you want to run report, just click on the <code class="highlighter-rouge">play</code> icon. The report will be shown in the current active tab. If you want to delete it, click on the <code class="highlighter-rouge">trash</code> icon.</p>
+<p>If there is at least 1, you will see the reports that you save before and those that are saved by people who have access to the documents and have Freshsales installed. If you want to run report, just click on the <code class="language-plaintext highlighter-rouge">play</code> icon. The report will be shown in the current active tab. If you want to delete it, click on the <code class="language-plaintext highlighter-rouge">trash</code> icon.</p>
 
 <p><img src="/images/projects/fs-how-to-use/fs-list-saved-reports.png" alt="How to see saved reports in Freshsales GSheet Connector" /></p>
 
