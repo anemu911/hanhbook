@@ -2,7 +2,7 @@
 title: Mit's arrival (Delivery story and 1 week postpartum)
 description: A new chapter in my life
 subtitle: A new chapter in my life
-featured_image: '/images/simple-living/mit-phot.jpg'
+featured_image: '/images/simple-living/mit-photo.jpg'
 date: 2022-03-28
 group: article
 ---
