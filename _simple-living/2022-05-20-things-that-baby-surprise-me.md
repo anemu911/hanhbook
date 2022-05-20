@@ -2,7 +2,7 @@
 title: Things that baby surprise me
 description: Sleep, eat, poop
 subtitle: Sleep, eat, poop
-featured_image: '/images/simple-living/mit-photo.jpg'
+featured_image: '/images/simple-living/mit-3-month-smile.jpg'
 date: 2022-05-20
 group: article
 ---
